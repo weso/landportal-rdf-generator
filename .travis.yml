@@ -8,4 +8,5 @@ install:
   - "pip install --allow-all-external -r requirements.txt"
 
 script:
+  # Run nosetests
   - "nosetests"
