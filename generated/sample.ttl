@@ -1,0 +1,19 @@
+@prefix : <http://example.org/> .
+@prefix cex: <http://purl.org/weso/computex/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdmx_concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:OBSTEST_OBSERVATION3 a qb:Observation ;
+    rdfs:label "Observation of Spain in 2013" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "hdi" ;
+    cex:ref-time "year2013" ;
+    cex:value 2.3e+00 .
+
