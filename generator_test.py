@@ -33,4 +33,6 @@ class GeneratorTest(TestCase):
     def test_sdmx_concept_prefix(self):
         self.assertEquals(self.sdmx_concept_prefix, "http://purl.org/linked-data/sdmx/2009/concept#")
 
+    def test_namespace_binding(self):
+        pass
 
