@@ -1,22 +1,17 @@
 from unittest import TestCase
-from models import Observation
-from generator import *
+from rdf_utils.namespaces_handler import *
 
 __author__ = 'guillermo'
 
 
-class GeneratorTest(TestCase):
+class NamespacesTest(TestCase):
 
     def setUp(self):
-        self.generated_obs_id = Observation("some_string", 10)
-        self.empty_prefix = empty
+        self.empty_prefix = no_prefix
         self.cex_prefix = cex
         self.dcterms_prefix = dcterms
         self.qb_prefix = qb
         self.sdmx_concept_prefix = sdmx_concept
-
-    def test_observation_id_generation(self):
-        self.assertEquals(self.generated_obs_id.observation_id, "OBSSOME_STRING10")
 
     def test_empty_prefix(self):
         self.assertEquals(self.empty_prefix, "http://example.org/")
