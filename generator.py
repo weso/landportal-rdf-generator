@@ -1,17 +1,31 @@
 __author__ = 'guillermo'
 
-from rdflib import Namespace, URIRef
+from models import *
+from random import randint
+from math import pow
 
-# Namespaces
-empty = Namespace("http://example.org/")
-cex = Namespace("http://purl.org/weso/computex/ontology#")
-dcterms = Namespace("http://purl.org/dc/terms/")
-qb = Namespace("http://purl.org/linked-data/cube#")
-sdmx_concept = Namespace("http://purl.org/linked-data/sdmx/2009/concept#")
+random_num = int(pow(randint(1, 100), 2))
 
-def bind_namespaces(graph):
-    graph.namespace_manager.bind("", URIRef("http://example.org/"))
-    graph.namespace_manager.bind("cex", URIRef("http://purl.org/weso/computex/ontology#"))
-    graph.namespace_manager.bind("dcterms", URIRef("http://purl.org/dc/terms/"))
-    graph.namespace_manager.bind("qb", URIRef("http://purl.org/linked-data/cube#"))
-    graph.namespace_manager.bind("sdmx_concept", URIRef("http://purl.org/linked-data/sdmx/2009/concept#"))
+regions = []
+indicators = []
+observations = []
+
+
+def observations_generator():
+    for n in range(random_num):
+        indicators.append(Indicator("test_indicator" + str(n), float(n),
+                                    "Indicator" + str(n)))
+        regions.append(Region("Region"))
+
+        observations.append(Observation("test_observation" + str(n),
+                                        n, "year2013", 2013, "Raw",
+                                        float(n), indicators[n], None,
+                                        str(regions[n]) + str(n),
+                                        "Observation of " + str(regions[n])
+                                        + str(n)))
+    return observations
+
+
+
+
+
