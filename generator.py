@@ -2,9 +2,12 @@ __author__ = 'guillermo'
 
 from models import *
 from random import randint
-from math import pow
+import pprint
 
-random_num = int(pow(randint(1, 100), 2))
+
+num_regions = randint(1, 10)
+num_indicators = randint(1, 10)
+num_years = randint(1, 10)
 
 regions = []
 indicators = []
@@ -12,20 +15,23 @@ observations = []
 
 
 def observations_generator():
-    for n in range(random_num):
-        indicators.append(Indicator("test_indicator" + str(n), float(n),
-                                    "Indicator" + str(n)))
-        regions.append(Region("Region"))
+    counter = 0
+    for region in range(num_regions):
+        for indicator in range(num_indicators):
+            for year in range(num_years):
+                indicators.append(Indicator("test_indicator" + str(counter),
+                                            float(counter),
+                                            "Indicator" + str(counter)))
+                regions.append(Region("Region"))
 
-        observations.append(Observation("test_observation" + str(n),
-                                        n, "year2013", 2013, "Raw",
-                                        float(n), indicators[n], None,
-                                        str(regions[n]) + str(n),
-                                        "Observation of " + str(regions[n])
-                                        + str(n)))
+                observations.append(Observation("_test_observation",
+                                                counter, "Year2013", 2013, "Raw",
+                                                float(counter), indicators[indicator], None,
+                                                str(regions[region]) + str(counter),
+                                                "Observation of " + str(regions[region])
+                                                + str(counter)))
+                counter += 1
     return observations
-
-
 
 
 

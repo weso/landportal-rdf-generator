@@ -5,9 +5,10 @@ from rdflib.namespace import RDF, RDFS
 from rdf_utils.namespaces_handler import *
 from generator import observations_generator as observations
 
+g = Graph()
 
-def main():
-    g = Graph()
+
+def initialize_graph():
     for obs in observations():
         g.add((no_prefix.term(obs.observation_id), RDF.type,
                qb.term("Observation")))
@@ -28,17 +29,29 @@ def main():
         g.add((no_prefix.term(obs.ref_area), RDF.type,
                no_prefix.term("Country")))
         g.add((no_prefix.term(obs.ref_time), RDF.type, no_prefix.term("Time")))
-        #g.add((no_prefix.term(obs.indicator), RDF.type, cex.term("Indicator")))
+        g.add((no_prefix.term(Literal(obs.indicator)), RDF.type,
+               cex.term("Indicator")))
 
     bind_namespaces(g)
+    return g
 
-    serialized = g.serialize(format='turtle')
 
-    with open('generated/sample.ttl', 'w') as sample:
+def serialize_rdf_xml():
+    serialized = initialize_graph().serialize(format='application/rdf+xml')
+    with open('generated/dataset.xml', 'w') as sample:
         sample.write(serialized)
 
-    print serialized
 
+def serialize_turtle():
+    serialized = initialize_graph().serialize(format='turtle')
+    with open('generated/dataset.ttl', 'w') as sample:
+        sample.write(serialized)
+
+
+def main():
+    initialize_graph()
+    serialize_rdf_xml()
+    serialize_turtle()
 
 if __name__ == "__main__":
     main()
