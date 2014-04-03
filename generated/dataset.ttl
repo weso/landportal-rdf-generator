@@ -1,0 +1,3196 @@
+@prefix : <http://example.org/> .
+@prefix cex: <http://purl.org/weso/computex/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdmx_concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Indicator0 a cex:Indicator .
+
+:Indicator1 a cex:Indicator .
+
+:Indicator2 a cex:Indicator .
+
+:Indicator3 a cex:Indicator .
+
+:Indicator4 a cex:Indicator .
+
+:Indicator5 a cex:Indicator .
+
+:Indicator6 a cex:Indicator .
+
+:Indicator7 a cex:Indicator .
+
+:OBS_TEST_OBSERVATION0 a qb:Observation ;
+    rdfs:label "Observation of Region0" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 0e+00 .
+
+:OBS_TEST_OBSERVATION1 a qb:Observation ;
+    rdfs:label "Observation of Region1" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1e+00 .
+
+:OBS_TEST_OBSERVATION10 a qb:Observation ;
+    rdfs:label "Observation of Region10" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1e+01 .
+
+:OBS_TEST_OBSERVATION100 a qb:Observation ;
+    rdfs:label "Observation of Region100" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1e+02 .
+
+:OBS_TEST_OBSERVATION101 a qb:Observation ;
+    rdfs:label "Observation of Region101" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.01e+02 .
+
+:OBS_TEST_OBSERVATION102 a qb:Observation ;
+    rdfs:label "Observation of Region102" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.02e+02 .
+
+:OBS_TEST_OBSERVATION103 a qb:Observation ;
+    rdfs:label "Observation of Region103" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.03e+02 .
+
+:OBS_TEST_OBSERVATION104 a qb:Observation ;
+    rdfs:label "Observation of Region104" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.04e+02 .
+
+:OBS_TEST_OBSERVATION105 a qb:Observation ;
+    rdfs:label "Observation of Region105" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.05e+02 .
+
+:OBS_TEST_OBSERVATION106 a qb:Observation ;
+    rdfs:label "Observation of Region106" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.06e+02 .
+
+:OBS_TEST_OBSERVATION107 a qb:Observation ;
+    rdfs:label "Observation of Region107" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.07e+02 .
+
+:OBS_TEST_OBSERVATION108 a qb:Observation ;
+    rdfs:label "Observation of Region108" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.08e+02 .
+
+:OBS_TEST_OBSERVATION109 a qb:Observation ;
+    rdfs:label "Observation of Region109" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.09e+02 .
+
+:OBS_TEST_OBSERVATION11 a qb:Observation ;
+    rdfs:label "Observation of Region11" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.1e+01 .
+
+:OBS_TEST_OBSERVATION110 a qb:Observation ;
+    rdfs:label "Observation of Region110" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.1e+02 .
+
+:OBS_TEST_OBSERVATION111 a qb:Observation ;
+    rdfs:label "Observation of Region111" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.11e+02 .
+
+:OBS_TEST_OBSERVATION112 a qb:Observation ;
+    rdfs:label "Observation of Region112" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.12e+02 .
+
+:OBS_TEST_OBSERVATION113 a qb:Observation ;
+    rdfs:label "Observation of Region113" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.13e+02 .
+
+:OBS_TEST_OBSERVATION114 a qb:Observation ;
+    rdfs:label "Observation of Region114" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.14e+02 .
+
+:OBS_TEST_OBSERVATION115 a qb:Observation ;
+    rdfs:label "Observation of Region115" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.15e+02 .
+
+:OBS_TEST_OBSERVATION116 a qb:Observation ;
+    rdfs:label "Observation of Region116" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.16e+02 .
+
+:OBS_TEST_OBSERVATION117 a qb:Observation ;
+    rdfs:label "Observation of Region117" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.17e+02 .
+
+:OBS_TEST_OBSERVATION118 a qb:Observation ;
+    rdfs:label "Observation of Region118" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.18e+02 .
+
+:OBS_TEST_OBSERVATION119 a qb:Observation ;
+    rdfs:label "Observation of Region119" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.19e+02 .
+
+:OBS_TEST_OBSERVATION12 a qb:Observation ;
+    rdfs:label "Observation of Region12" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.2e+01 .
+
+:OBS_TEST_OBSERVATION120 a qb:Observation ;
+    rdfs:label "Observation of Region120" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.2e+02 .
+
+:OBS_TEST_OBSERVATION121 a qb:Observation ;
+    rdfs:label "Observation of Region121" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.21e+02 .
+
+:OBS_TEST_OBSERVATION122 a qb:Observation ;
+    rdfs:label "Observation of Region122" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.22e+02 .
+
+:OBS_TEST_OBSERVATION123 a qb:Observation ;
+    rdfs:label "Observation of Region123" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.23e+02 .
+
+:OBS_TEST_OBSERVATION124 a qb:Observation ;
+    rdfs:label "Observation of Region124" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.24e+02 .
+
+:OBS_TEST_OBSERVATION125 a qb:Observation ;
+    rdfs:label "Observation of Region125" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.25e+02 .
+
+:OBS_TEST_OBSERVATION126 a qb:Observation ;
+    rdfs:label "Observation of Region126" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.26e+02 .
+
+:OBS_TEST_OBSERVATION127 a qb:Observation ;
+    rdfs:label "Observation of Region127" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.27e+02 .
+
+:OBS_TEST_OBSERVATION128 a qb:Observation ;
+    rdfs:label "Observation of Region128" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.28e+02 .
+
+:OBS_TEST_OBSERVATION129 a qb:Observation ;
+    rdfs:label "Observation of Region129" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.29e+02 .
+
+:OBS_TEST_OBSERVATION13 a qb:Observation ;
+    rdfs:label "Observation of Region13" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.3e+01 .
+
+:OBS_TEST_OBSERVATION130 a qb:Observation ;
+    rdfs:label "Observation of Region130" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.3e+02 .
+
+:OBS_TEST_OBSERVATION131 a qb:Observation ;
+    rdfs:label "Observation of Region131" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.31e+02 .
+
+:OBS_TEST_OBSERVATION132 a qb:Observation ;
+    rdfs:label "Observation of Region132" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.32e+02 .
+
+:OBS_TEST_OBSERVATION133 a qb:Observation ;
+    rdfs:label "Observation of Region133" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.33e+02 .
+
+:OBS_TEST_OBSERVATION134 a qb:Observation ;
+    rdfs:label "Observation of Region134" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.34e+02 .
+
+:OBS_TEST_OBSERVATION135 a qb:Observation ;
+    rdfs:label "Observation of Region135" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.35e+02 .
+
+:OBS_TEST_OBSERVATION136 a qb:Observation ;
+    rdfs:label "Observation of Region136" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.36e+02 .
+
+:OBS_TEST_OBSERVATION137 a qb:Observation ;
+    rdfs:label "Observation of Region137" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.37e+02 .
+
+:OBS_TEST_OBSERVATION138 a qb:Observation ;
+    rdfs:label "Observation of Region138" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.38e+02 .
+
+:OBS_TEST_OBSERVATION139 a qb:Observation ;
+    rdfs:label "Observation of Region139" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.39e+02 .
+
+:OBS_TEST_OBSERVATION14 a qb:Observation ;
+    rdfs:label "Observation of Region14" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.4e+01 .
+
+:OBS_TEST_OBSERVATION140 a qb:Observation ;
+    rdfs:label "Observation of Region140" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.4e+02 .
+
+:OBS_TEST_OBSERVATION141 a qb:Observation ;
+    rdfs:label "Observation of Region141" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.41e+02 .
+
+:OBS_TEST_OBSERVATION142 a qb:Observation ;
+    rdfs:label "Observation of Region142" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.42e+02 .
+
+:OBS_TEST_OBSERVATION143 a qb:Observation ;
+    rdfs:label "Observation of Region143" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.43e+02 .
+
+:OBS_TEST_OBSERVATION144 a qb:Observation ;
+    rdfs:label "Observation of Region144" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.44e+02 .
+
+:OBS_TEST_OBSERVATION145 a qb:Observation ;
+    rdfs:label "Observation of Region145" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.45e+02 .
+
+:OBS_TEST_OBSERVATION146 a qb:Observation ;
+    rdfs:label "Observation of Region146" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.46e+02 .
+
+:OBS_TEST_OBSERVATION147 a qb:Observation ;
+    rdfs:label "Observation of Region147" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.47e+02 .
+
+:OBS_TEST_OBSERVATION148 a qb:Observation ;
+    rdfs:label "Observation of Region148" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.48e+02 .
+
+:OBS_TEST_OBSERVATION149 a qb:Observation ;
+    rdfs:label "Observation of Region149" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.49e+02 .
+
+:OBS_TEST_OBSERVATION15 a qb:Observation ;
+    rdfs:label "Observation of Region15" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.5e+01 .
+
+:OBS_TEST_OBSERVATION150 a qb:Observation ;
+    rdfs:label "Observation of Region150" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.5e+02 .
+
+:OBS_TEST_OBSERVATION151 a qb:Observation ;
+    rdfs:label "Observation of Region151" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.51e+02 .
+
+:OBS_TEST_OBSERVATION152 a qb:Observation ;
+    rdfs:label "Observation of Region152" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.52e+02 .
+
+:OBS_TEST_OBSERVATION153 a qb:Observation ;
+    rdfs:label "Observation of Region153" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.53e+02 .
+
+:OBS_TEST_OBSERVATION154 a qb:Observation ;
+    rdfs:label "Observation of Region154" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.54e+02 .
+
+:OBS_TEST_OBSERVATION155 a qb:Observation ;
+    rdfs:label "Observation of Region155" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.55e+02 .
+
+:OBS_TEST_OBSERVATION156 a qb:Observation ;
+    rdfs:label "Observation of Region156" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.56e+02 .
+
+:OBS_TEST_OBSERVATION157 a qb:Observation ;
+    rdfs:label "Observation of Region157" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.57e+02 .
+
+:OBS_TEST_OBSERVATION158 a qb:Observation ;
+    rdfs:label "Observation of Region158" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.58e+02 .
+
+:OBS_TEST_OBSERVATION159 a qb:Observation ;
+    rdfs:label "Observation of Region159" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.59e+02 .
+
+:OBS_TEST_OBSERVATION16 a qb:Observation ;
+    rdfs:label "Observation of Region16" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.6e+01 .
+
+:OBS_TEST_OBSERVATION160 a qb:Observation ;
+    rdfs:label "Observation of Region160" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.6e+02 .
+
+:OBS_TEST_OBSERVATION161 a qb:Observation ;
+    rdfs:label "Observation of Region161" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.61e+02 .
+
+:OBS_TEST_OBSERVATION162 a qb:Observation ;
+    rdfs:label "Observation of Region162" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.62e+02 .
+
+:OBS_TEST_OBSERVATION163 a qb:Observation ;
+    rdfs:label "Observation of Region163" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.63e+02 .
+
+:OBS_TEST_OBSERVATION164 a qb:Observation ;
+    rdfs:label "Observation of Region164" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.64e+02 .
+
+:OBS_TEST_OBSERVATION165 a qb:Observation ;
+    rdfs:label "Observation of Region165" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.65e+02 .
+
+:OBS_TEST_OBSERVATION166 a qb:Observation ;
+    rdfs:label "Observation of Region166" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.66e+02 .
+
+:OBS_TEST_OBSERVATION167 a qb:Observation ;
+    rdfs:label "Observation of Region167" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.67e+02 .
+
+:OBS_TEST_OBSERVATION168 a qb:Observation ;
+    rdfs:label "Observation of Region168" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.68e+02 .
+
+:OBS_TEST_OBSERVATION169 a qb:Observation ;
+    rdfs:label "Observation of Region169" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.69e+02 .
+
+:OBS_TEST_OBSERVATION17 a qb:Observation ;
+    rdfs:label "Observation of Region17" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.7e+01 .
+
+:OBS_TEST_OBSERVATION170 a qb:Observation ;
+    rdfs:label "Observation of Region170" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.7e+02 .
+
+:OBS_TEST_OBSERVATION171 a qb:Observation ;
+    rdfs:label "Observation of Region171" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.71e+02 .
+
+:OBS_TEST_OBSERVATION172 a qb:Observation ;
+    rdfs:label "Observation of Region172" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.72e+02 .
+
+:OBS_TEST_OBSERVATION173 a qb:Observation ;
+    rdfs:label "Observation of Region173" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.73e+02 .
+
+:OBS_TEST_OBSERVATION174 a qb:Observation ;
+    rdfs:label "Observation of Region174" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.74e+02 .
+
+:OBS_TEST_OBSERVATION175 a qb:Observation ;
+    rdfs:label "Observation of Region175" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.75e+02 .
+
+:OBS_TEST_OBSERVATION176 a qb:Observation ;
+    rdfs:label "Observation of Region176" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.76e+02 .
+
+:OBS_TEST_OBSERVATION177 a qb:Observation ;
+    rdfs:label "Observation of Region177" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.77e+02 .
+
+:OBS_TEST_OBSERVATION178 a qb:Observation ;
+    rdfs:label "Observation of Region178" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.78e+02 .
+
+:OBS_TEST_OBSERVATION179 a qb:Observation ;
+    rdfs:label "Observation of Region179" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.79e+02 .
+
+:OBS_TEST_OBSERVATION18 a qb:Observation ;
+    rdfs:label "Observation of Region18" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.8e+01 .
+
+:OBS_TEST_OBSERVATION180 a qb:Observation ;
+    rdfs:label "Observation of Region180" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.8e+02 .
+
+:OBS_TEST_OBSERVATION181 a qb:Observation ;
+    rdfs:label "Observation of Region181" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.81e+02 .
+
+:OBS_TEST_OBSERVATION182 a qb:Observation ;
+    rdfs:label "Observation of Region182" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.82e+02 .
+
+:OBS_TEST_OBSERVATION183 a qb:Observation ;
+    rdfs:label "Observation of Region183" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.83e+02 .
+
+:OBS_TEST_OBSERVATION184 a qb:Observation ;
+    rdfs:label "Observation of Region184" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.84e+02 .
+
+:OBS_TEST_OBSERVATION185 a qb:Observation ;
+    rdfs:label "Observation of Region185" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.85e+02 .
+
+:OBS_TEST_OBSERVATION186 a qb:Observation ;
+    rdfs:label "Observation of Region186" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.86e+02 .
+
+:OBS_TEST_OBSERVATION187 a qb:Observation ;
+    rdfs:label "Observation of Region187" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.87e+02 .
+
+:OBS_TEST_OBSERVATION188 a qb:Observation ;
+    rdfs:label "Observation of Region188" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.88e+02 .
+
+:OBS_TEST_OBSERVATION189 a qb:Observation ;
+    rdfs:label "Observation of Region189" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.89e+02 .
+
+:OBS_TEST_OBSERVATION19 a qb:Observation ;
+    rdfs:label "Observation of Region19" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.9e+01 .
+
+:OBS_TEST_OBSERVATION190 a qb:Observation ;
+    rdfs:label "Observation of Region190" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.9e+02 .
+
+:OBS_TEST_OBSERVATION191 a qb:Observation ;
+    rdfs:label "Observation of Region191" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.91e+02 .
+
+:OBS_TEST_OBSERVATION192 a qb:Observation ;
+    rdfs:label "Observation of Region192" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.92e+02 .
+
+:OBS_TEST_OBSERVATION193 a qb:Observation ;
+    rdfs:label "Observation of Region193" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.93e+02 .
+
+:OBS_TEST_OBSERVATION194 a qb:Observation ;
+    rdfs:label "Observation of Region194" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.94e+02 .
+
+:OBS_TEST_OBSERVATION195 a qb:Observation ;
+    rdfs:label "Observation of Region195" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.95e+02 .
+
+:OBS_TEST_OBSERVATION196 a qb:Observation ;
+    rdfs:label "Observation of Region196" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.96e+02 .
+
+:OBS_TEST_OBSERVATION197 a qb:Observation ;
+    rdfs:label "Observation of Region197" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.97e+02 .
+
+:OBS_TEST_OBSERVATION198 a qb:Observation ;
+    rdfs:label "Observation of Region198" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.98e+02 .
+
+:OBS_TEST_OBSERVATION199 a qb:Observation ;
+    rdfs:label "Observation of Region199" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 1.99e+02 .
+
+:OBS_TEST_OBSERVATION2 a qb:Observation ;
+    rdfs:label "Observation of Region2" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2e+00 .
+
+:OBS_TEST_OBSERVATION20 a qb:Observation ;
+    rdfs:label "Observation of Region20" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2e+01 .
+
+:OBS_TEST_OBSERVATION200 a qb:Observation ;
+    rdfs:label "Observation of Region200" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2e+02 .
+
+:OBS_TEST_OBSERVATION201 a qb:Observation ;
+    rdfs:label "Observation of Region201" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.01e+02 .
+
+:OBS_TEST_OBSERVATION202 a qb:Observation ;
+    rdfs:label "Observation of Region202" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.02e+02 .
+
+:OBS_TEST_OBSERVATION203 a qb:Observation ;
+    rdfs:label "Observation of Region203" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.03e+02 .
+
+:OBS_TEST_OBSERVATION204 a qb:Observation ;
+    rdfs:label "Observation of Region204" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.04e+02 .
+
+:OBS_TEST_OBSERVATION205 a qb:Observation ;
+    rdfs:label "Observation of Region205" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.05e+02 .
+
+:OBS_TEST_OBSERVATION206 a qb:Observation ;
+    rdfs:label "Observation of Region206" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.06e+02 .
+
+:OBS_TEST_OBSERVATION207 a qb:Observation ;
+    rdfs:label "Observation of Region207" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.07e+02 .
+
+:OBS_TEST_OBSERVATION208 a qb:Observation ;
+    rdfs:label "Observation of Region208" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.08e+02 .
+
+:OBS_TEST_OBSERVATION209 a qb:Observation ;
+    rdfs:label "Observation of Region209" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.09e+02 .
+
+:OBS_TEST_OBSERVATION21 a qb:Observation ;
+    rdfs:label "Observation of Region21" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.1e+01 .
+
+:OBS_TEST_OBSERVATION210 a qb:Observation ;
+    rdfs:label "Observation of Region210" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.1e+02 .
+
+:OBS_TEST_OBSERVATION211 a qb:Observation ;
+    rdfs:label "Observation of Region211" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.11e+02 .
+
+:OBS_TEST_OBSERVATION212 a qb:Observation ;
+    rdfs:label "Observation of Region212" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.12e+02 .
+
+:OBS_TEST_OBSERVATION213 a qb:Observation ;
+    rdfs:label "Observation of Region213" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.13e+02 .
+
+:OBS_TEST_OBSERVATION214 a qb:Observation ;
+    rdfs:label "Observation of Region214" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.14e+02 .
+
+:OBS_TEST_OBSERVATION215 a qb:Observation ;
+    rdfs:label "Observation of Region215" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.15e+02 .
+
+:OBS_TEST_OBSERVATION216 a qb:Observation ;
+    rdfs:label "Observation of Region216" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.16e+02 .
+
+:OBS_TEST_OBSERVATION217 a qb:Observation ;
+    rdfs:label "Observation of Region217" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.17e+02 .
+
+:OBS_TEST_OBSERVATION218 a qb:Observation ;
+    rdfs:label "Observation of Region218" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.18e+02 .
+
+:OBS_TEST_OBSERVATION219 a qb:Observation ;
+    rdfs:label "Observation of Region219" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.19e+02 .
+
+:OBS_TEST_OBSERVATION22 a qb:Observation ;
+    rdfs:label "Observation of Region22" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.2e+01 .
+
+:OBS_TEST_OBSERVATION220 a qb:Observation ;
+    rdfs:label "Observation of Region220" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.2e+02 .
+
+:OBS_TEST_OBSERVATION221 a qb:Observation ;
+    rdfs:label "Observation of Region221" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.21e+02 .
+
+:OBS_TEST_OBSERVATION222 a qb:Observation ;
+    rdfs:label "Observation of Region222" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.22e+02 .
+
+:OBS_TEST_OBSERVATION223 a qb:Observation ;
+    rdfs:label "Observation of Region223" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.23e+02 .
+
+:OBS_TEST_OBSERVATION224 a qb:Observation ;
+    rdfs:label "Observation of Region224" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.24e+02 .
+
+:OBS_TEST_OBSERVATION225 a qb:Observation ;
+    rdfs:label "Observation of Region225" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.25e+02 .
+
+:OBS_TEST_OBSERVATION226 a qb:Observation ;
+    rdfs:label "Observation of Region226" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.26e+02 .
+
+:OBS_TEST_OBSERVATION227 a qb:Observation ;
+    rdfs:label "Observation of Region227" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.27e+02 .
+
+:OBS_TEST_OBSERVATION228 a qb:Observation ;
+    rdfs:label "Observation of Region228" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.28e+02 .
+
+:OBS_TEST_OBSERVATION229 a qb:Observation ;
+    rdfs:label "Observation of Region229" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.29e+02 .
+
+:OBS_TEST_OBSERVATION23 a qb:Observation ;
+    rdfs:label "Observation of Region23" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.3e+01 .
+
+:OBS_TEST_OBSERVATION230 a qb:Observation ;
+    rdfs:label "Observation of Region230" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.3e+02 .
+
+:OBS_TEST_OBSERVATION231 a qb:Observation ;
+    rdfs:label "Observation of Region231" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.31e+02 .
+
+:OBS_TEST_OBSERVATION232 a qb:Observation ;
+    rdfs:label "Observation of Region232" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.32e+02 .
+
+:OBS_TEST_OBSERVATION233 a qb:Observation ;
+    rdfs:label "Observation of Region233" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.33e+02 .
+
+:OBS_TEST_OBSERVATION234 a qb:Observation ;
+    rdfs:label "Observation of Region234" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.34e+02 .
+
+:OBS_TEST_OBSERVATION235 a qb:Observation ;
+    rdfs:label "Observation of Region235" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.35e+02 .
+
+:OBS_TEST_OBSERVATION236 a qb:Observation ;
+    rdfs:label "Observation of Region236" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.36e+02 .
+
+:OBS_TEST_OBSERVATION237 a qb:Observation ;
+    rdfs:label "Observation of Region237" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.37e+02 .
+
+:OBS_TEST_OBSERVATION238 a qb:Observation ;
+    rdfs:label "Observation of Region238" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.38e+02 .
+
+:OBS_TEST_OBSERVATION239 a qb:Observation ;
+    rdfs:label "Observation of Region239" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.39e+02 .
+
+:OBS_TEST_OBSERVATION24 a qb:Observation ;
+    rdfs:label "Observation of Region24" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.4e+01 .
+
+:OBS_TEST_OBSERVATION240 a qb:Observation ;
+    rdfs:label "Observation of Region240" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.4e+02 .
+
+:OBS_TEST_OBSERVATION241 a qb:Observation ;
+    rdfs:label "Observation of Region241" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.41e+02 .
+
+:OBS_TEST_OBSERVATION242 a qb:Observation ;
+    rdfs:label "Observation of Region242" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.42e+02 .
+
+:OBS_TEST_OBSERVATION243 a qb:Observation ;
+    rdfs:label "Observation of Region243" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.43e+02 .
+
+:OBS_TEST_OBSERVATION244 a qb:Observation ;
+    rdfs:label "Observation of Region244" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.44e+02 .
+
+:OBS_TEST_OBSERVATION245 a qb:Observation ;
+    rdfs:label "Observation of Region245" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.45e+02 .
+
+:OBS_TEST_OBSERVATION246 a qb:Observation ;
+    rdfs:label "Observation of Region246" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.46e+02 .
+
+:OBS_TEST_OBSERVATION247 a qb:Observation ;
+    rdfs:label "Observation of Region247" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.47e+02 .
+
+:OBS_TEST_OBSERVATION248 a qb:Observation ;
+    rdfs:label "Observation of Region248" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.48e+02 .
+
+:OBS_TEST_OBSERVATION249 a qb:Observation ;
+    rdfs:label "Observation of Region249" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.49e+02 .
+
+:OBS_TEST_OBSERVATION25 a qb:Observation ;
+    rdfs:label "Observation of Region25" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.5e+01 .
+
+:OBS_TEST_OBSERVATION250 a qb:Observation ;
+    rdfs:label "Observation of Region250" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.5e+02 .
+
+:OBS_TEST_OBSERVATION251 a qb:Observation ;
+    rdfs:label "Observation of Region251" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.51e+02 .
+
+:OBS_TEST_OBSERVATION252 a qb:Observation ;
+    rdfs:label "Observation of Region252" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.52e+02 .
+
+:OBS_TEST_OBSERVATION253 a qb:Observation ;
+    rdfs:label "Observation of Region253" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.53e+02 .
+
+:OBS_TEST_OBSERVATION254 a qb:Observation ;
+    rdfs:label "Observation of Region254" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.54e+02 .
+
+:OBS_TEST_OBSERVATION255 a qb:Observation ;
+    rdfs:label "Observation of Region255" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.55e+02 .
+
+:OBS_TEST_OBSERVATION256 a qb:Observation ;
+    rdfs:label "Observation of Region256" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.56e+02 .
+
+:OBS_TEST_OBSERVATION257 a qb:Observation ;
+    rdfs:label "Observation of Region257" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.57e+02 .
+
+:OBS_TEST_OBSERVATION258 a qb:Observation ;
+    rdfs:label "Observation of Region258" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.58e+02 .
+
+:OBS_TEST_OBSERVATION259 a qb:Observation ;
+    rdfs:label "Observation of Region259" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.59e+02 .
+
+:OBS_TEST_OBSERVATION26 a qb:Observation ;
+    rdfs:label "Observation of Region26" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.6e+01 .
+
+:OBS_TEST_OBSERVATION260 a qb:Observation ;
+    rdfs:label "Observation of Region260" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.6e+02 .
+
+:OBS_TEST_OBSERVATION261 a qb:Observation ;
+    rdfs:label "Observation of Region261" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.61e+02 .
+
+:OBS_TEST_OBSERVATION262 a qb:Observation ;
+    rdfs:label "Observation of Region262" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.62e+02 .
+
+:OBS_TEST_OBSERVATION263 a qb:Observation ;
+    rdfs:label "Observation of Region263" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.63e+02 .
+
+:OBS_TEST_OBSERVATION264 a qb:Observation ;
+    rdfs:label "Observation of Region264" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.64e+02 .
+
+:OBS_TEST_OBSERVATION265 a qb:Observation ;
+    rdfs:label "Observation of Region265" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.65e+02 .
+
+:OBS_TEST_OBSERVATION266 a qb:Observation ;
+    rdfs:label "Observation of Region266" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.66e+02 .
+
+:OBS_TEST_OBSERVATION267 a qb:Observation ;
+    rdfs:label "Observation of Region267" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.67e+02 .
+
+:OBS_TEST_OBSERVATION268 a qb:Observation ;
+    rdfs:label "Observation of Region268" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.68e+02 .
+
+:OBS_TEST_OBSERVATION269 a qb:Observation ;
+    rdfs:label "Observation of Region269" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.69e+02 .
+
+:OBS_TEST_OBSERVATION27 a qb:Observation ;
+    rdfs:label "Observation of Region27" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.7e+01 .
+
+:OBS_TEST_OBSERVATION270 a qb:Observation ;
+    rdfs:label "Observation of Region270" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.7e+02 .
+
+:OBS_TEST_OBSERVATION271 a qb:Observation ;
+    rdfs:label "Observation of Region271" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.71e+02 .
+
+:OBS_TEST_OBSERVATION272 a qb:Observation ;
+    rdfs:label "Observation of Region272" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.72e+02 .
+
+:OBS_TEST_OBSERVATION273 a qb:Observation ;
+    rdfs:label "Observation of Region273" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.73e+02 .
+
+:OBS_TEST_OBSERVATION274 a qb:Observation ;
+    rdfs:label "Observation of Region274" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.74e+02 .
+
+:OBS_TEST_OBSERVATION275 a qb:Observation ;
+    rdfs:label "Observation of Region275" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.75e+02 .
+
+:OBS_TEST_OBSERVATION276 a qb:Observation ;
+    rdfs:label "Observation of Region276" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.76e+02 .
+
+:OBS_TEST_OBSERVATION277 a qb:Observation ;
+    rdfs:label "Observation of Region277" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.77e+02 .
+
+:OBS_TEST_OBSERVATION278 a qb:Observation ;
+    rdfs:label "Observation of Region278" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.78e+02 .
+
+:OBS_TEST_OBSERVATION279 a qb:Observation ;
+    rdfs:label "Observation of Region279" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.79e+02 .
+
+:OBS_TEST_OBSERVATION28 a qb:Observation ;
+    rdfs:label "Observation of Region28" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.8e+01 .
+
+:OBS_TEST_OBSERVATION280 a qb:Observation ;
+    rdfs:label "Observation of Region280" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.8e+02 .
+
+:OBS_TEST_OBSERVATION281 a qb:Observation ;
+    rdfs:label "Observation of Region281" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.81e+02 .
+
+:OBS_TEST_OBSERVATION282 a qb:Observation ;
+    rdfs:label "Observation of Region282" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.82e+02 .
+
+:OBS_TEST_OBSERVATION283 a qb:Observation ;
+    rdfs:label "Observation of Region283" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.83e+02 .
+
+:OBS_TEST_OBSERVATION284 a qb:Observation ;
+    rdfs:label "Observation of Region284" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.84e+02 .
+
+:OBS_TEST_OBSERVATION285 a qb:Observation ;
+    rdfs:label "Observation of Region285" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.85e+02 .
+
+:OBS_TEST_OBSERVATION286 a qb:Observation ;
+    rdfs:label "Observation of Region286" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.86e+02 .
+
+:OBS_TEST_OBSERVATION287 a qb:Observation ;
+    rdfs:label "Observation of Region287" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.87e+02 .
+
+:OBS_TEST_OBSERVATION29 a qb:Observation ;
+    rdfs:label "Observation of Region29" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 2.9e+01 .
+
+:OBS_TEST_OBSERVATION3 a qb:Observation ;
+    rdfs:label "Observation of Region3" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3e+00 .
+
+:OBS_TEST_OBSERVATION30 a qb:Observation ;
+    rdfs:label "Observation of Region30" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3e+01 .
+
+:OBS_TEST_OBSERVATION31 a qb:Observation ;
+    rdfs:label "Observation of Region31" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.1e+01 .
+
+:OBS_TEST_OBSERVATION32 a qb:Observation ;
+    rdfs:label "Observation of Region32" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.2e+01 .
+
+:OBS_TEST_OBSERVATION33 a qb:Observation ;
+    rdfs:label "Observation of Region33" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.3e+01 .
+
+:OBS_TEST_OBSERVATION34 a qb:Observation ;
+    rdfs:label "Observation of Region34" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.4e+01 .
+
+:OBS_TEST_OBSERVATION35 a qb:Observation ;
+    rdfs:label "Observation of Region35" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.5e+01 .
+
+:OBS_TEST_OBSERVATION36 a qb:Observation ;
+    rdfs:label "Observation of Region36" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.6e+01 .
+
+:OBS_TEST_OBSERVATION37 a qb:Observation ;
+    rdfs:label "Observation of Region37" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.7e+01 .
+
+:OBS_TEST_OBSERVATION38 a qb:Observation ;
+    rdfs:label "Observation of Region38" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.8e+01 .
+
+:OBS_TEST_OBSERVATION39 a qb:Observation ;
+    rdfs:label "Observation of Region39" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 3.9e+01 .
+
+:OBS_TEST_OBSERVATION4 a qb:Observation ;
+    rdfs:label "Observation of Region4" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4e+00 .
+
+:OBS_TEST_OBSERVATION40 a qb:Observation ;
+    rdfs:label "Observation of Region40" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4e+01 .
+
+:OBS_TEST_OBSERVATION41 a qb:Observation ;
+    rdfs:label "Observation of Region41" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.1e+01 .
+
+:OBS_TEST_OBSERVATION42 a qb:Observation ;
+    rdfs:label "Observation of Region42" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.2e+01 .
+
+:OBS_TEST_OBSERVATION43 a qb:Observation ;
+    rdfs:label "Observation of Region43" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.3e+01 .
+
+:OBS_TEST_OBSERVATION44 a qb:Observation ;
+    rdfs:label "Observation of Region44" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator4" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.4e+01 .
+
+:OBS_TEST_OBSERVATION45 a qb:Observation ;
+    rdfs:label "Observation of Region45" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.5e+01 .
+
+:OBS_TEST_OBSERVATION46 a qb:Observation ;
+    rdfs:label "Observation of Region46" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.6e+01 .
+
+:OBS_TEST_OBSERVATION47 a qb:Observation ;
+    rdfs:label "Observation of Region47" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.7e+01 .
+
+:OBS_TEST_OBSERVATION48 a qb:Observation ;
+    rdfs:label "Observation of Region48" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.8e+01 .
+
+:OBS_TEST_OBSERVATION49 a qb:Observation ;
+    rdfs:label "Observation of Region49" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 4.9e+01 .
+
+:OBS_TEST_OBSERVATION5 a qb:Observation ;
+    rdfs:label "Observation of Region5" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5e+00 .
+
+:OBS_TEST_OBSERVATION50 a qb:Observation ;
+    rdfs:label "Observation of Region50" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5e+01 .
+
+:OBS_TEST_OBSERVATION51 a qb:Observation ;
+    rdfs:label "Observation of Region51" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.1e+01 .
+
+:OBS_TEST_OBSERVATION52 a qb:Observation ;
+    rdfs:label "Observation of Region52" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.2e+01 .
+
+:OBS_TEST_OBSERVATION53 a qb:Observation ;
+    rdfs:label "Observation of Region53" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator5" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.3e+01 .
+
+:OBS_TEST_OBSERVATION54 a qb:Observation ;
+    rdfs:label "Observation of Region54" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.4e+01 .
+
+:OBS_TEST_OBSERVATION55 a qb:Observation ;
+    rdfs:label "Observation of Region55" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.5e+01 .
+
+:OBS_TEST_OBSERVATION56 a qb:Observation ;
+    rdfs:label "Observation of Region56" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.6e+01 .
+
+:OBS_TEST_OBSERVATION57 a qb:Observation ;
+    rdfs:label "Observation of Region57" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.7e+01 .
+
+:OBS_TEST_OBSERVATION58 a qb:Observation ;
+    rdfs:label "Observation of Region58" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.8e+01 .
+
+:OBS_TEST_OBSERVATION59 a qb:Observation ;
+    rdfs:label "Observation of Region59" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 5.9e+01 .
+
+:OBS_TEST_OBSERVATION6 a qb:Observation ;
+    rdfs:label "Observation of Region6" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6e+00 .
+
+:OBS_TEST_OBSERVATION60 a qb:Observation ;
+    rdfs:label "Observation of Region60" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6e+01 .
+
+:OBS_TEST_OBSERVATION61 a qb:Observation ;
+    rdfs:label "Observation of Region61" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.1e+01 .
+
+:OBS_TEST_OBSERVATION62 a qb:Observation ;
+    rdfs:label "Observation of Region62" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator6" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.2e+01 .
+
+:OBS_TEST_OBSERVATION63 a qb:Observation ;
+    rdfs:label "Observation of Region63" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.3e+01 .
+
+:OBS_TEST_OBSERVATION64 a qb:Observation ;
+    rdfs:label "Observation of Region64" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.4e+01 .
+
+:OBS_TEST_OBSERVATION65 a qb:Observation ;
+    rdfs:label "Observation of Region65" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.5e+01 .
+
+:OBS_TEST_OBSERVATION66 a qb:Observation ;
+    rdfs:label "Observation of Region66" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.6e+01 .
+
+:OBS_TEST_OBSERVATION67 a qb:Observation ;
+    rdfs:label "Observation of Region67" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.7e+01 .
+
+:OBS_TEST_OBSERVATION68 a qb:Observation ;
+    rdfs:label "Observation of Region68" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.8e+01 .
+
+:OBS_TEST_OBSERVATION69 a qb:Observation ;
+    rdfs:label "Observation of Region69" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 6.9e+01 .
+
+:OBS_TEST_OBSERVATION7 a qb:Observation ;
+    rdfs:label "Observation of Region7" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7e+00 .
+
+:OBS_TEST_OBSERVATION70 a qb:Observation ;
+    rdfs:label "Observation of Region70" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7e+01 .
+
+:OBS_TEST_OBSERVATION71 a qb:Observation ;
+    rdfs:label "Observation of Region71" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator7" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.1e+01 .
+
+:OBS_TEST_OBSERVATION72 a qb:Observation ;
+    rdfs:label "Observation of Region72" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.2e+01 .
+
+:OBS_TEST_OBSERVATION73 a qb:Observation ;
+    rdfs:label "Observation of Region73" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.3e+01 .
+
+:OBS_TEST_OBSERVATION74 a qb:Observation ;
+    rdfs:label "Observation of Region74" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.4e+01 .
+
+:OBS_TEST_OBSERVATION75 a qb:Observation ;
+    rdfs:label "Observation of Region75" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.5e+01 .
+
+:OBS_TEST_OBSERVATION76 a qb:Observation ;
+    rdfs:label "Observation of Region76" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.6e+01 .
+
+:OBS_TEST_OBSERVATION77 a qb:Observation ;
+    rdfs:label "Observation of Region77" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.7e+01 .
+
+:OBS_TEST_OBSERVATION78 a qb:Observation ;
+    rdfs:label "Observation of Region78" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.8e+01 .
+
+:OBS_TEST_OBSERVATION79 a qb:Observation ;
+    rdfs:label "Observation of Region79" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 7.9e+01 .
+
+:OBS_TEST_OBSERVATION8 a qb:Observation ;
+    rdfs:label "Observation of Region8" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8e+00 .
+
+:OBS_TEST_OBSERVATION80 a qb:Observation ;
+    rdfs:label "Observation of Region80" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator0" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8e+01 .
+
+:OBS_TEST_OBSERVATION81 a qb:Observation ;
+    rdfs:label "Observation of Region81" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.1e+01 .
+
+:OBS_TEST_OBSERVATION82 a qb:Observation ;
+    rdfs:label "Observation of Region82" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.2e+01 .
+
+:OBS_TEST_OBSERVATION83 a qb:Observation ;
+    rdfs:label "Observation of Region83" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.3e+01 .
+
+:OBS_TEST_OBSERVATION84 a qb:Observation ;
+    rdfs:label "Observation of Region84" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.4e+01 .
+
+:OBS_TEST_OBSERVATION85 a qb:Observation ;
+    rdfs:label "Observation of Region85" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.5e+01 .
+
+:OBS_TEST_OBSERVATION86 a qb:Observation ;
+    rdfs:label "Observation of Region86" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.6e+01 .
+
+:OBS_TEST_OBSERVATION87 a qb:Observation ;
+    rdfs:label "Observation of Region87" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.7e+01 .
+
+:OBS_TEST_OBSERVATION88 a qb:Observation ;
+    rdfs:label "Observation of Region88" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.8e+01 .
+
+:OBS_TEST_OBSERVATION89 a qb:Observation ;
+    rdfs:label "Observation of Region89" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 8.9e+01 .
+
+:OBS_TEST_OBSERVATION9 a qb:Observation ;
+    rdfs:label "Observation of Region9" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator1" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9e+00 .
+
+:OBS_TEST_OBSERVATION90 a qb:Observation ;
+    rdfs:label "Observation of Region90" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9e+01 .
+
+:OBS_TEST_OBSERVATION91 a qb:Observation ;
+    rdfs:label "Observation of Region91" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.1e+01 .
+
+:OBS_TEST_OBSERVATION92 a qb:Observation ;
+    rdfs:label "Observation of Region92" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.2e+01 .
+
+:OBS_TEST_OBSERVATION93 a qb:Observation ;
+    rdfs:label "Observation of Region93" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.3e+01 .
+
+:OBS_TEST_OBSERVATION94 a qb:Observation ;
+    rdfs:label "Observation of Region94" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.4e+01 .
+
+:OBS_TEST_OBSERVATION95 a qb:Observation ;
+    rdfs:label "Observation of Region95" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.5e+01 .
+
+:OBS_TEST_OBSERVATION96 a qb:Observation ;
+    rdfs:label "Observation of Region96" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.6e+01 .
+
+:OBS_TEST_OBSERVATION97 a qb:Observation ;
+    rdfs:label "Observation of Region97" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.7e+01 .
+
+:OBS_TEST_OBSERVATION98 a qb:Observation ;
+    rdfs:label "Observation of Region98" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator2" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.8e+01 .
+
+:OBS_TEST_OBSERVATION99 a qb:Observation ;
+    rdfs:label "Observation of Region99" ;
+    dcterms:issued 2013 ;
+    sdmx_concept:obsStatus cex:Raw ;
+    cex:computation cex:Raw ;
+    cex:ref-indicator "Indicator3" ;
+    cex:ref-time "Year2013" ;
+    cex:value 9.9e+01 .
+
+:Region0 a :Country .
+
+:Region1 a :Country .
+
+:Region10 a :Country .
+
+:Region100 a :Country .
+
+:Region101 a :Country .
+
+:Region102 a :Country .
+
+:Region103 a :Country .
+
+:Region104 a :Country .
+
+:Region105 a :Country .
+
+:Region106 a :Country .
+
+:Region107 a :Country .
+
+:Region108 a :Country .
+
+:Region109 a :Country .
+
+:Region11 a :Country .
+
+:Region110 a :Country .
+
+:Region111 a :Country .
+
+:Region112 a :Country .
+
+:Region113 a :Country .
+
+:Region114 a :Country .
+
+:Region115 a :Country .
+
+:Region116 a :Country .
+
+:Region117 a :Country .
+
+:Region118 a :Country .
+
+:Region119 a :Country .
+
+:Region12 a :Country .
+
+:Region120 a :Country .
+
+:Region121 a :Country .
+
+:Region122 a :Country .
+
+:Region123 a :Country .
+
+:Region124 a :Country .
+
+:Region125 a :Country .
+
+:Region126 a :Country .
+
+:Region127 a :Country .
+
+:Region128 a :Country .
+
+:Region129 a :Country .
+
+:Region13 a :Country .
+
+:Region130 a :Country .
+
+:Region131 a :Country .
+
+:Region132 a :Country .
+
+:Region133 a :Country .
+
+:Region134 a :Country .
+
+:Region135 a :Country .
+
+:Region136 a :Country .
+
+:Region137 a :Country .
+
+:Region138 a :Country .
+
+:Region139 a :Country .
+
+:Region14 a :Country .
+
+:Region140 a :Country .
+
+:Region141 a :Country .
+
+:Region142 a :Country .
+
+:Region143 a :Country .
+
+:Region144 a :Country .
+
+:Region145 a :Country .
+
+:Region146 a :Country .
+
+:Region147 a :Country .
+
+:Region148 a :Country .
+
+:Region149 a :Country .
+
+:Region15 a :Country .
+
+:Region150 a :Country .
+
+:Region151 a :Country .
+
+:Region152 a :Country .
+
+:Region153 a :Country .
+
+:Region154 a :Country .
+
+:Region155 a :Country .
+
+:Region156 a :Country .
+
+:Region157 a :Country .
+
+:Region158 a :Country .
+
+:Region159 a :Country .
+
+:Region16 a :Country .
+
+:Region160 a :Country .
+
+:Region161 a :Country .
+
+:Region162 a :Country .
+
+:Region163 a :Country .
+
+:Region164 a :Country .
+
+:Region165 a :Country .
+
+:Region166 a :Country .
+
+:Region167 a :Country .
+
+:Region168 a :Country .
+
+:Region169 a :Country .
+
+:Region17 a :Country .
+
+:Region170 a :Country .
+
+:Region171 a :Country .
+
+:Region172 a :Country .
+
+:Region173 a :Country .
+
+:Region174 a :Country .
+
+:Region175 a :Country .
+
+:Region176 a :Country .
+
+:Region177 a :Country .
+
+:Region178 a :Country .
+
+:Region179 a :Country .
+
+:Region18 a :Country .
+
+:Region180 a :Country .
+
+:Region181 a :Country .
+
+:Region182 a :Country .
+
+:Region183 a :Country .
+
+:Region184 a :Country .
+
+:Region185 a :Country .
+
+:Region186 a :Country .
+
+:Region187 a :Country .
+
+:Region188 a :Country .
+
+:Region189 a :Country .
+
+:Region19 a :Country .
+
+:Region190 a :Country .
+
+:Region191 a :Country .
+
+:Region192 a :Country .
+
+:Region193 a :Country .
+
+:Region194 a :Country .
+
+:Region195 a :Country .
+
+:Region196 a :Country .
+
+:Region197 a :Country .
+
+:Region198 a :Country .
+
+:Region199 a :Country .
+
+:Region2 a :Country .
+
+:Region20 a :Country .
+
+:Region200 a :Country .
+
+:Region201 a :Country .
+
+:Region202 a :Country .
+
+:Region203 a :Country .
+
+:Region204 a :Country .
+
+:Region205 a :Country .
+
+:Region206 a :Country .
+
+:Region207 a :Country .
+
+:Region208 a :Country .
+
+:Region209 a :Country .
+
+:Region21 a :Country .
+
+:Region210 a :Country .
+
+:Region211 a :Country .
+
+:Region212 a :Country .
+
+:Region213 a :Country .
+
+:Region214 a :Country .
+
+:Region215 a :Country .
+
+:Region216 a :Country .
+
+:Region217 a :Country .
+
+:Region218 a :Country .
+
+:Region219 a :Country .
+
+:Region22 a :Country .
+
+:Region220 a :Country .
+
+:Region221 a :Country .
+
+:Region222 a :Country .
+
+:Region223 a :Country .
+
+:Region224 a :Country .
+
+:Region225 a :Country .
+
+:Region226 a :Country .
+
+:Region227 a :Country .
+
+:Region228 a :Country .
+
+:Region229 a :Country .
+
+:Region23 a :Country .
+
+:Region230 a :Country .
+
+:Region231 a :Country .
+
+:Region232 a :Country .
+
+:Region233 a :Country .
+
+:Region234 a :Country .
+
+:Region235 a :Country .
+
+:Region236 a :Country .
+
+:Region237 a :Country .
+
+:Region238 a :Country .
+
+:Region239 a :Country .
+
+:Region24 a :Country .
+
+:Region240 a :Country .
+
+:Region241 a :Country .
+
+:Region242 a :Country .
+
+:Region243 a :Country .
+
+:Region244 a :Country .
+
+:Region245 a :Country .
+
+:Region246 a :Country .
+
+:Region247 a :Country .
+
+:Region248 a :Country .
+
+:Region249 a :Country .
+
+:Region25 a :Country .
+
+:Region250 a :Country .
+
+:Region251 a :Country .
+
+:Region252 a :Country .
+
+:Region253 a :Country .
+
+:Region254 a :Country .
+
+:Region255 a :Country .
+
+:Region256 a :Country .
+
+:Region257 a :Country .
+
+:Region258 a :Country .
+
+:Region259 a :Country .
+
+:Region26 a :Country .
+
+:Region260 a :Country .
+
+:Region261 a :Country .
+
+:Region262 a :Country .
+
+:Region263 a :Country .
+
+:Region264 a :Country .
+
+:Region265 a :Country .
+
+:Region266 a :Country .
+
+:Region267 a :Country .
+
+:Region268 a :Country .
+
+:Region269 a :Country .
+
+:Region27 a :Country .
+
+:Region270 a :Country .
+
+:Region271 a :Country .
+
+:Region272 a :Country .
+
+:Region273 a :Country .
+
+:Region274 a :Country .
+
+:Region275 a :Country .
+
+:Region276 a :Country .
+
+:Region277 a :Country .
+
+:Region278 a :Country .
+
+:Region279 a :Country .
+
+:Region28 a :Country .
+
+:Region280 a :Country .
+
+:Region281 a :Country .
+
+:Region282 a :Country .
+
+:Region283 a :Country .
+
+:Region284 a :Country .
+
+:Region285 a :Country .
+
+:Region286 a :Country .
+
+:Region287 a :Country .
+
+:Region29 a :Country .
+
+:Region3 a :Country .
+
+:Region30 a :Country .
+
+:Region31 a :Country .
+
+:Region32 a :Country .
+
+:Region33 a :Country .
+
+:Region34 a :Country .
+
+:Region35 a :Country .
+
+:Region36 a :Country .
+
+:Region37 a :Country .
+
+:Region38 a :Country .
+
+:Region39 a :Country .
+
+:Region4 a :Country .
+
+:Region40 a :Country .
+
+:Region41 a :Country .
+
+:Region42 a :Country .
+
+:Region43 a :Country .
+
+:Region44 a :Country .
+
+:Region45 a :Country .
+
+:Region46 a :Country .
+
+:Region47 a :Country .
+
+:Region48 a :Country .
+
+:Region49 a :Country .
+
+:Region5 a :Country .
+
+:Region50 a :Country .
+
+:Region51 a :Country .
+
+:Region52 a :Country .
+
+:Region53 a :Country .
+
+:Region54 a :Country .
+
+:Region55 a :Country .
+
+:Region56 a :Country .
+
+:Region57 a :Country .
+
+:Region58 a :Country .
+
+:Region59 a :Country .
+
+:Region6 a :Country .
+
+:Region60 a :Country .
+
+:Region61 a :Country .
+
+:Region62 a :Country .
+
+:Region63 a :Country .
+
+:Region64 a :Country .
+
+:Region65 a :Country .
+
+:Region66 a :Country .
+
+:Region67 a :Country .
+
+:Region68 a :Country .
+
+:Region69 a :Country .
+
+:Region7 a :Country .
+
+:Region70 a :Country .
+
+:Region71 a :Country .
+
+:Region72 a :Country .
+
+:Region73 a :Country .
+
+:Region74 a :Country .
+
+:Region75 a :Country .
+
+:Region76 a :Country .
+
+:Region77 a :Country .
+
+:Region78 a :Country .
+
+:Region79 a :Country .
+
+:Region8 a :Country .
+
+:Region80 a :Country .
+
+:Region81 a :Country .
+
+:Region82 a :Country .
+
+:Region83 a :Country .
+
+:Region84 a :Country .
+
+:Region85 a :Country .
+
+:Region86 a :Country .
+
+:Region87 a :Country .
+
+:Region88 a :Country .
+
+:Region89 a :Country .
+
+:Region9 a :Country .
+
+:Region90 a :Country .
+
+:Region91 a :Country .
+
+:Region92 a :Country .
+
+:Region93 a :Country .
+
+:Region94 a :Country .
+
+:Region95 a :Country .
+
+:Region96 a :Country .
+
+:Region97 a :Country .
+
+:Region98 a :Country .
+
+:Region99 a :Country .
+
+:Year2013 a :Time .
+
