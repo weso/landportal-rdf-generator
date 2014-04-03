@@ -2,12 +2,11 @@ __author__ = 'guillermo'
 
 from models import *
 from random import randint
-import pprint
+import datetime as dt
 
-
-num_regions = randint(1, 10)
-num_indicators = randint(1, 10)
-num_years = randint(1, 10)
+num_regions = randint(5, 10)
+num_indicators = randint(5, 10)
+num_years = randint(5, 10)
 
 regions = []
 indicators = []
@@ -24,14 +23,21 @@ def observations_generator():
                                             "Indicator" + str(counter)))
                 regions.append(Region("Region"))
 
-                observations.append(Observation("_test_observation",
-                                                counter, "Year2013", 2013, "Raw",
-                                                float(counter), indicators[indicator], None,
-                                                str(regions[region]) + str(counter),
-                                                "Observation of " + str(regions[region])
-                                                + str(counter)))
+                observations.append(Observation("_test_observation_",
+                                                counter, "Year" +
+                                                dt.datetime.now().
+                                                strftime("%Y"),
+                                                dt.datetime.now().
+                                                strftime("%m-%d-%Y-%H:%M"),
+                                                "Raw", float(counter),
+                                                indicators[counter], None,
+                                                str(regions[region]) +
+                                                str(counter), "Observation of "
+                                                + str(regions[region]) +
+                                                str(counter) + " in " +
+                                                "Year" + dt.datetime.now().
+                                                strftime("%Y") + " for " +
+                                                str(indicators[counter])
+                                                ))
                 counter += 1
     return observations
-
-
-
