@@ -51,7 +51,7 @@ def initialize_graph():
 
 def serialize_rdf_xml():
     serialized = initialize_graph().serialize(format='application/rdf+xml')
-    with open('generated/dataset.xml', 'w') as sample:
+    with open('generated/dataset.rdf', 'w') as sample:
         sample.write(serialized)
 
 
