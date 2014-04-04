@@ -7,7 +7,7 @@ __author__ = 'guillermo'
 class NamespacesTest(TestCase):
 
     def setUp(self):
-        self.empty_prefix = no_prefix
+        self.empty_prefix = prefix_
         self.cex_prefix = cex
         self.dcterms_prefix = dcterms
         self.qb_prefix = qb

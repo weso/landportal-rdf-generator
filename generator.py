@@ -14,6 +14,10 @@ observations = []
 
 
 def observations_generator():
+    """
+    Generates a random number of observations based on fake data
+    for testing purposes
+    """
     counter = 0
     for region in range(num_regions):
         for indicator in range(num_indicators):
@@ -28,7 +32,8 @@ def observations_generator():
                                                 dt.datetime.now().
                                                 strftime("%Y"),
                                                 dt.datetime.now().
-                                                strftime("%m-%d-%Y-%H:%M"),
+                                                strftime("%Y-%m-%d-" +
+                                                         "T"+"%H:%M"),
                                                 "Raw", float(counter),
                                                 indicators[counter], None,
                                                 str(regions[region]) +

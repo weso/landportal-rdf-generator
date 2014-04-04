@@ -10,39 +10,39 @@ g = Graph()
 
 def initialize_graph():
     for obs in observations():
-        g.add((no_prefix.term(obs.observation_id), RDF.type,
+        g.add((prefix_.term(obs.observation_id), RDF.type,
                qb.term("Observation")))
 
-        g.add((no_prefix.term(obs.observation_id), cex.term("ref-time"),
-               Literal(obs.ref_time)))
+        g.add((prefix_.term(obs.observation_id), cex.term("ref-time"),
+               prefix_.term(obs.ref_time)))
 
-        g.add((no_prefix.term(obs.observation_id), cex.term("ref-area"),
-               Literal(obs.ref_area)))
+        g.add((prefix_.term(obs.observation_id), cex.term("ref-area"),
+               prefix_.term(obs.ref_area)))
 
-        g.add((no_prefix.term(obs.observation_id), cex.term("ref-indicator"),
-               no_prefix.term(str(obs.indicator))))
+        g.add((prefix_.term(obs.observation_id), cex.term("ref-indicator"),
+               prefix_.term(str(obs.indicator))))
 
-        g.add((no_prefix.term(obs.observation_id), cex.term("value"),
-               Literal(str(obs.value))))
+        g.add((prefix_.term(obs.observation_id), cex.term("value"),
+               Literal(obs.value, datatype=XSD.decimal)))
 
-        g.add((no_prefix.term(obs.observation_id), cex.term("computation"),
+        g.add((prefix_.term(obs.observation_id), cex.term("computation"),
                cex.term(obs.computation)))
 
-        g.add((no_prefix.term(obs.observation_id), dcterms.term("issued"),
+        g.add((prefix_.term(obs.observation_id), dcterms.term("issued"),
                Literal(obs.issued, datatype=XSD.dateTime)))
 
-        g.add((no_prefix.term(obs.observation_id), RDFS.label,
+        g.add((prefix_.term(obs.observation_id), RDFS.label,
                Literal(obs.description, lang='en')))
 
-        g.add((no_prefix.term(obs.observation_id),
+        g.add((prefix_.term(obs.observation_id),
                sdmx_concept.term("obsStatus"), cex.term(obs.computation)))
 
-        g.add((no_prefix.term(obs.ref_area), RDF.type,
-               no_prefix.term("Country")))
+        g.add((prefix_.term(obs.ref_area), RDF.type,
+               prefix_.term("Country")))
 
-        g.add((no_prefix.term(obs.ref_time), RDF.type, no_prefix.term("Time")))
+        g.add((prefix_.term(obs.ref_time), RDF.type, prefix_.term("Time")))
 
-        g.add((no_prefix.term(Literal(obs.indicator)), RDF.type,
+        g.add((prefix_.term(Literal(obs.indicator)), RDF.type,
                cex.term("Indicator")))
 
     bind_namespaces(g)
