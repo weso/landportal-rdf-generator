@@ -1,5 +1,7 @@
 from unittest import TestCase
-from models import Observation
+
+from application.models import Observation
+
 
 __author__ = 'guillermo'
 
