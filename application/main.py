@@ -2,8 +2,10 @@ __author__ = 'guillermo'
 
 from rdflib import Literal, Graph, XSD
 from rdflib.namespace import RDF, RDFS
+
 from rdf_utils.namespaces_handler import *
-from generator import observations_generator as observations
+from application.generator import observations_generator as observations
+
 
 g = Graph()
 
@@ -51,13 +53,13 @@ def initialize_graph():
 
 def serialize_rdf_xml():
     serialized = initialize_graph().serialize(format='application/rdf+xml')
-    with open('generated/dataset.rdf', 'w') as sample:
+    with open('generated/../generated/dataset.rdf', 'w') as sample:
         sample.write(serialized)
 
 
 def serialize_turtle():
     serialized = initialize_graph().serialize(format='turtle')
-    with open('generated/dataset.ttl', 'w') as sample:
+    with open('generated/../generated/dataset.ttl', 'w') as sample:
         sample.write(serialized)
 
 

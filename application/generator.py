@@ -1,8 +1,10 @@
 __author__ = 'guillermo'
 
-from models import *
 from random import randint
 import datetime as dt
+
+from application.models import *
+
 
 num_regions = randint(5, 10)
 num_indicators = randint(5, 10)
@@ -31,9 +33,7 @@ def observations_generator():
                                                 counter, "Year" +
                                                 dt.datetime.now().
                                                 strftime("%Y"),
-                                                dt.datetime.now().
-                                                strftime("%Y-%m-%d-" +
-                                                         "T"+"%H:%M"),
+                                                dt.datetime.now(),
                                                 "Raw", float(counter),
                                                 indicators[counter], None,
                                                 str(regions[region]) +
