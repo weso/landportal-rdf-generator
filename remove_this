@@ -1,0 +1,2 @@
+curl --digest --user dba:root --verbose --url
+"http://localhost:1300/sparql-graph-crud-auth?graph-uri=urn:graph:update:test:post" -X POST -T dataset.rdf
