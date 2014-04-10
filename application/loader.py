@@ -1,16 +1,9 @@
 __author__ = 'guillermo'
 
-import requests
-from requests.auth import HTTPDigestAuth
+import sh
 
-url = 'http://localhost:1300/sparql-graph-crud-auth?graph-uri=urn:graph:update:test1:post'
+def load_data_set(host, api, graph_uri):
+    sh.curl(host+api+graph_uri,
+       digest=True, u="dba:root", verbose=True, X="POST", T="generated/../generated/dataset.ttl")
 
-dataset = {'file': open('generated/dataset.rdf', 'rb')}
 
-headers = {'content-type': 'text/html'}
-
-r = requests.post(url, files=dataset, auth=HTTPDigestAuth('dba', 'root'),
-                  headers=headers)
-
-print r.status_code
-print r.text
