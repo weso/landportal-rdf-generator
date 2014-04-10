@@ -5,9 +5,12 @@ from rdflib.namespace import RDF, RDFS
 
 from rdf_utils.namespaces_handler import *
 from application.generator import observations_generator as observations
-
+from application.loader import load_data_set
 
 g = Graph()
+host1 = "http://localhost:1300/"
+api1 = "sparql-graph-crud-auth?"
+graph_uri1 = "graph-uri=http://www.landportal.info"
 
 
 def initialize_graph():
@@ -67,6 +70,7 @@ def main():
     initialize_graph()
     serialize_rdf_xml()
     serialize_turtle()
+    load_data_set(host1, api1, graph_uri1)
 
 if __name__ == "__main__":
     main()
