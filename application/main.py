@@ -4,7 +4,8 @@ from rdflib import Literal, Graph, XSD
 from rdflib.namespace import RDF, RDFS
 
 from rdf_utils.namespaces_handler import *
-from application.generator import observations_generator as observations
+from application.generator import observations_generator
+from application.generator import regions_generator
 from application.loader import load_data_set
 
 g = Graph()
@@ -13,8 +14,14 @@ api1 = "sparql-graph-crud-auth?"
 graph_uri1 = "graph-uri=http://www.landportal.info"
 
 
-def initialize_graph():
-    for obs in observations():
+def initialize_graph_with_regions():
+    for region in regions_generator():
+        g.add((prefix_.term(region), RDF.type,
+               cex.term("Area")))
+
+
+def initialize_graph_with_observations():
+    for obs in observations_generator():
         g.add((prefix_.term(obs.observation_id), RDF.type,
                qb.term("Observation")))
 
@@ -28,19 +35,28 @@ def initialize_graph():
                prefix_.term(str(obs.indicator))))
 
         g.add((prefix_.term(obs.observation_id), cex.term("value"),
-               Literal(obs.value, datatype=XSD.decimal)))
+               Literal(obs.value, datatype=XSD.double)))
 
         g.add((prefix_.term(obs.observation_id), cex.term("computation"),
-               cex.term(obs.computation)))
+               cex.term(str(obs.computation))))
 
         g.add((prefix_.term(obs.observation_id), dcterms.term("issued"),
                Literal(obs.issued, datatype=XSD.dateTime)))
+
+        g.add((prefix_.term(obs.observation_id), qb.term("dataSet"),
+               prefix_.term(str(obs.dataset))))
+
+        g.add((prefix_.term(obs.observation_id), qb.term("slice"),
+               prefix_.term(str(obs.slice))))
 
         g.add((prefix_.term(obs.observation_id), RDFS.label,
                Literal(obs.description, lang='en')))
 
         g.add((prefix_.term(obs.observation_id),
-               sdmx_concept.term("obsStatus"), cex.term(obs.computation)))
+               sdmx_concept.term("obsStatus"), sdmx_code.term(obs.status)))
+
+        g.add((prefix_.term(obs.observation_id),
+               lb.term("source"), prefix_.term(obs.source)))
 
         g.add((prefix_.term(obs.ref_area), RDF.type,
                prefix_.term("Country")))
@@ -50,6 +66,10 @@ def initialize_graph():
         g.add((prefix_.term(Literal(obs.indicator)), RDF.type,
                cex.term("Indicator")))
 
+
+def initialize_graph():
+    initialize_graph_with_regions()
+    initialize_graph_with_observations()
     bind_namespaces(g)
     return g
 
