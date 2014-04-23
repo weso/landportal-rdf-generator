@@ -5,7 +5,7 @@ from rdflib.namespace import RDF, RDFS
 
 from rdf_utils.namespaces_handler import *
 from application.generator import observations_generator as observations
-from application.loader import load_data_set
+#from application.loader import load_data_set
 
 g = Graph()
 host1 = "http://localhost:1300/"
