@@ -13,197 +13,136 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-: a cex:Area .
+:Country0 a cex:Area ;
+    rdfs:label "Country0"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region0 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country1 a cex:Area ;
+    rdfs:label "Country1"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region1 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country2 a cex:Area ;
+    rdfs:label "Country2"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region2 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country3 a cex:Area ;
+    rdfs:label "Country3"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region3 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country4 a cex:Area ;
+    rdfs:label "Country4"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region4 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
 
 :OBS0 a qb:Observation ;
-    rdfs:label "Observation of Region0 in Year2014 for Indicator0"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747717"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760504"^^xsd:dateTime,
-        "2014-04-23T19:22:34.793970"^^xsd:dateTime ;
+    rdfs:label "Observation of Region0 in 2012 for Indicator0"@en ;
+    dcterms:issued "2014-04-24T18:46:39.953818"^^xsd:dateTime,
+        "2014-04-24T18:46:39.962179"^^xsd:dateTime,
+        "2014-04-24T18:46:39.976515"^^xsd:dateTime ;
     qb:dataSet :DAT_0 ;
     qb:slice :SLI0 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
-    cex:ref-area :Region00 ;
+    cex:ref-area :Region0 ;
     cex:ref-indicator :Indicator0 ;
-    cex:ref-time :Year2014 ;
+    cex:ref-time <http://example.org/2012> ;
     cex:value 0e+00 ;
     lb:source :upload0 .
 
 :OBS1 a qb:Observation ;
-    rdfs:label "Observation of Region1 in Year2014 for Indicator1"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747774"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760556"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794159"^^xsd:dateTime ;
+    rdfs:label "Observation of Region1 in 2012 for Indicator1"@en ;
+    dcterms:issued "2014-04-24T18:46:39.954320"^^xsd:dateTime,
+        "2014-04-24T18:46:39.962820"^^xsd:dateTime,
+        "2014-04-24T18:46:39.977001"^^xsd:dateTime ;
     qb:dataSet :DAT_1 ;
     qb:slice :SLI1 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
-    cex:ref-area :Region11 ;
+    cex:ref-area :Region1 ;
     cex:ref-indicator :Indicator1 ;
-    cex:ref-time :Year2014 ;
+    cex:ref-time <http://example.org/2012> ;
     cex:value 1e+00 ;
     lb:source :upload1 .
 
 :OBS2 a qb:Observation ;
-    rdfs:label "Observation of Region2 in Year2014 for Indicator2"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747824"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760605"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794207"^^xsd:dateTime ;
+    rdfs:label "Observation of Region2 in 2012 for Indicator2"@en ;
+    dcterms:issued "2014-04-24T18:46:39.954815"^^xsd:dateTime,
+        "2014-04-24T18:46:39.963273"^^xsd:dateTime,
+        "2014-04-24T18:46:39.977450"^^xsd:dateTime ;
     qb:dataSet :DAT_2 ;
     qb:slice :SLI2 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
-    cex:ref-area :Region22 ;
+    cex:ref-area :Region2 ;
     cex:ref-indicator :Indicator2 ;
-    cex:ref-time :Year2014 ;
+    cex:ref-time <http://example.org/2012> ;
     cex:value 2e+00 ;
     lb:source :upload2 .
 
 :OBS3 a qb:Observation ;
-    rdfs:label "Observation of Region3 in Year2014 for Indicator3"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747872"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760653"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794254"^^xsd:dateTime ;
+    rdfs:label "Observation of Region3 in 2012 for Indicator3"@en ;
+    dcterms:issued "2014-04-24T18:46:39.955264"^^xsd:dateTime,
+        "2014-04-24T18:46:39.963755"^^xsd:dateTime,
+        "2014-04-24T18:46:39.977912"^^xsd:dateTime ;
     qb:dataSet :DAT_3 ;
     qb:slice :SLI3 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
-    cex:ref-area :Region33 ;
+    cex:ref-area :Region3 ;
     cex:ref-indicator :Indicator3 ;
-    cex:ref-time :Year2014 ;
+    cex:ref-time <http://example.org/2012> ;
     cex:value 3e+00 ;
     lb:source :upload3 .
 
 :OBS4 a qb:Observation ;
-    rdfs:label "Observation of Region4 in Year2014 for Indicator4"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747921"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760697"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794303"^^xsd:dateTime ;
+    rdfs:label "Observation of Region4 in 2012 for Indicator4"@en ;
+    dcterms:issued "2014-04-24T18:46:39.955704"^^xsd:dateTime,
+        "2014-04-24T18:46:39.964265"^^xsd:dateTime,
+        "2014-04-24T18:46:39.978361"^^xsd:dateTime ;
     qb:dataSet :DAT_4 ;
     qb:slice :SLI4 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
-    cex:ref-area :Region44 ;
+    cex:ref-area :Region4 ;
     cex:ref-indicator :Indicator4 ;
-    cex:ref-time :Year2014 ;
+    cex:ref-time <http://example.org/2012> ;
     cex:value 4e+00 ;
     lb:source :upload4 .
 
-:OBS5 a qb:Observation ;
-    rdfs:label "Observation of Region5 in Year2014 for Indicator5"@en ;
-    dcterms:issued "2014-04-23T19:22:34.747966"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760814"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794371"^^xsd:dateTime ;
-    qb:dataSet :DAT_5 ;
-    qb:slice :SLI5 ;
-    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
-    cex:computation cex:RAW ;
-    cex:ref-area :Region55 ;
-    cex:ref-indicator :Indicator5 ;
-    cex:ref-time :Year2014 ;
-    cex:value 5e+00 ;
-    lb:source :upload5 .
+:year2012 a cex:Time ;
+    time:year "2012"^^xsd:gYear .
 
-:OBS6 a qb:Observation ;
-    rdfs:label "Observation of Region6 in Year2014 for Indicator6"@en ;
-    dcterms:issued "2014-04-23T19:22:34.748014"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760869"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794418"^^xsd:dateTime ;
-    qb:dataSet :DAT_6 ;
-    qb:slice :SLI6 ;
-    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
-    cex:computation cex:RAW ;
-    cex:ref-area :Region66 ;
-    cex:ref-indicator :Indicator6 ;
-    cex:ref-time :Year2014 ;
-    cex:value 6e+00 ;
-    lb:source :upload6 .
+:Region0 a cex:Area ;
+    rdfs:label "Region0"@en ;
+    lb:UNCode "EU" .
 
-:OBS7 a qb:Observation ;
-    rdfs:label "Observation of Region7 in Year2014 for Indicator7"@en ;
-    dcterms:issued "2014-04-23T19:22:34.748078"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760916"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794464"^^xsd:dateTime ;
-    qb:dataSet :DAT_7 ;
-    qb:slice :SLI7 ;
-    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
-    cex:computation cex:RAW ;
-    cex:ref-area :Region77 ;
-    cex:ref-indicator :Indicator7 ;
-    cex:ref-time :Year2014 ;
-    cex:value 7e+00 ;
-    lb:source :upload7 .
+:Region1 a cex:Area ;
+    rdfs:label "Region1"@en ;
+    lb:UNCode "EU" .
 
-:OBS8 a qb:Observation ;
-    rdfs:label "Observation of Region8 in Year2014 for Indicator8"@en ;
-    dcterms:issued "2014-04-23T19:22:34.748146"^^xsd:dateTime,
-        "2014-04-23T19:22:34.760961"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794515"^^xsd:dateTime ;
-    qb:dataSet :DAT_8 ;
-    qb:slice :SLI8 ;
-    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
-    cex:computation cex:RAW ;
-    cex:ref-area :Region88 ;
-    cex:ref-indicator :Indicator8 ;
-    cex:ref-time :Year2014 ;
-    cex:value 8e+00 ;
-    lb:source :upload8 .
+:Region2 a cex:Area ;
+    rdfs:label "Region2"@en ;
+    lb:UNCode "EU" .
 
-:OBS9 a qb:Observation ;
-    rdfs:label "Observation of Region9 in Year2014 for Indicator9"@en ;
-    dcterms:issued "2014-04-23T19:22:34.748195"^^xsd:dateTime,
-        "2014-04-23T19:22:34.761005"^^xsd:dateTime,
-        "2014-04-23T19:22:34.794559"^^xsd:dateTime ;
-    qb:dataSet :DAT_9 ;
-    qb:slice :SLI9 ;
-    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
-    cex:computation cex:RAW ;
-    cex:ref-area :Region99 ;
-    cex:ref-indicator :Indicator9 ;
-    cex:ref-time :Year2014 ;
-    cex:value 9e+00 ;
-    lb:source :upload9 .
+:Region3 a cex:Area ;
+    rdfs:label "Region3"@en ;
+    lb:UNCode "EU" .
 
-:Indicator0 a cex:Indicator .
-
-:Indicator1 a cex:Indicator .
-
-:Indicator2 a cex:Indicator .
-
-:Indicator3 a cex:Indicator .
-
-:Indicator4 a cex:Indicator .
-
-:Indicator5 a cex:Indicator .
-
-:Indicator6 a cex:Indicator .
-
-:Indicator7 a cex:Indicator .
-
-:Indicator8 a cex:Indicator .
-
-:Indicator9 a cex:Indicator .
-
-:Region00 a :Country .
-
-:Region11 a :Country .
-
-:Region22 a :Country .
-
-:Region33 a :Country .
-
-:Region44 a :Country .
-
-:Region55 a :Country .
-
-:Region66 a :Country .
-
-:Region77 a :Country .
-
-:Region88 a :Country .
-
-:Region99 a :Country .
-
-:Year2014 a :Time .
+:Region4 a cex:Area ;
+    rdfs:label "Region4"@en ;
+    lb:UNCode "EU" .
 
