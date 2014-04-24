@@ -50,9 +50,9 @@
 
 :OBS0 a qb:Observation ;
     rdfs:label "Observation of Region0 in 2012 for Indicator0"@en ;
-    dcterms:issued "2014-04-24T18:46:39.953818"^^xsd:dateTime,
-        "2014-04-24T18:46:39.962179"^^xsd:dateTime,
-        "2014-04-24T18:46:39.976515"^^xsd:dateTime ;
+    dcterms:issued "2014-04-24T20:00:32.224524"^^xsd:dateTime,
+        "2014-04-24T20:00:32.237640"^^xsd:dateTime,
+        "2014-04-24T20:00:32.259395"^^xsd:dateTime ;
     qb:dataSet :DAT_0 ;
     qb:slice :SLI0 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
@@ -65,9 +65,9 @@
 
 :OBS1 a qb:Observation ;
     rdfs:label "Observation of Region1 in 2012 for Indicator1"@en ;
-    dcterms:issued "2014-04-24T18:46:39.954320"^^xsd:dateTime,
-        "2014-04-24T18:46:39.962820"^^xsd:dateTime,
-        "2014-04-24T18:46:39.977001"^^xsd:dateTime ;
+    dcterms:issued "2014-04-24T20:00:32.225249"^^xsd:dateTime,
+        "2014-04-24T20:00:32.238290"^^xsd:dateTime,
+        "2014-04-24T20:00:32.260089"^^xsd:dateTime ;
     qb:dataSet :DAT_1 ;
     qb:slice :SLI1 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
@@ -80,9 +80,9 @@
 
 :OBS2 a qb:Observation ;
     rdfs:label "Observation of Region2 in 2012 for Indicator2"@en ;
-    dcterms:issued "2014-04-24T18:46:39.954815"^^xsd:dateTime,
-        "2014-04-24T18:46:39.963273"^^xsd:dateTime,
-        "2014-04-24T18:46:39.977450"^^xsd:dateTime ;
+    dcterms:issued "2014-04-24T20:00:32.225863"^^xsd:dateTime,
+        "2014-04-24T20:00:32.238897"^^xsd:dateTime,
+        "2014-04-24T20:00:32.260767"^^xsd:dateTime ;
     qb:dataSet :DAT_2 ;
     qb:slice :SLI2 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
@@ -95,9 +95,9 @@
 
 :OBS3 a qb:Observation ;
     rdfs:label "Observation of Region3 in 2012 for Indicator3"@en ;
-    dcterms:issued "2014-04-24T18:46:39.955264"^^xsd:dateTime,
-        "2014-04-24T18:46:39.963755"^^xsd:dateTime,
-        "2014-04-24T18:46:39.977912"^^xsd:dateTime ;
+    dcterms:issued "2014-04-24T20:00:32.226466"^^xsd:dateTime,
+        "2014-04-24T20:00:32.239520"^^xsd:dateTime,
+        "2014-04-24T20:00:32.261372"^^xsd:dateTime ;
     qb:dataSet :DAT_3 ;
     qb:slice :SLI3 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
@@ -110,9 +110,9 @@
 
 :OBS4 a qb:Observation ;
     rdfs:label "Observation of Region4 in 2012 for Indicator4"@en ;
-    dcterms:issued "2014-04-24T18:46:39.955704"^^xsd:dateTime,
-        "2014-04-24T18:46:39.964265"^^xsd:dateTime,
-        "2014-04-24T18:46:39.978361"^^xsd:dateTime ;
+    dcterms:issued "2014-04-24T20:00:32.227089"^^xsd:dateTime,
+        "2014-04-24T20:00:32.240117"^^xsd:dateTime,
+        "2014-04-24T20:00:32.261997"^^xsd:dateTime ;
     qb:dataSet :DAT_4 ;
     qb:slice :SLI4 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
@@ -125,6 +125,66 @@
 
 :year2012 a cex:Time ;
     time:year "2012"^^xsd:gYear .
+
+:Indicator0 a cex:Indicator ;
+    rdfs:label "Indicator0 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-24T20:00:32.233987"^^xsd:dateTime,
+        "2014-04-24T20:00:32.246199"^^xsd:dateTime,
+        "2014-04-24T20:00:32.268355"^^xsd:dateTime ;
+    lb:measurement cex:measurement0 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic0 ;
+    rdfs:comment "Longer description of Indicator0"@en .
+
+:Indicator1 a cex:Indicator ;
+    rdfs:label "Indicator1 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-24T20:00:32.234024"^^xsd:dateTime,
+        "2014-04-24T20:00:32.246227"^^xsd:dateTime,
+        "2014-04-24T20:00:32.268384"^^xsd:dateTime ;
+    lb:measurement cex:measurement1 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic1 ;
+    rdfs:comment "Longer description of Indicator1"@en .
+
+:Indicator2 a cex:Indicator ;
+    rdfs:label "Indicator2 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-24T20:00:32.234042"^^xsd:dateTime,
+        "2014-04-24T20:00:32.246236"^^xsd:dateTime,
+        "2014-04-24T20:00:32.268393"^^xsd:dateTime ;
+    lb:measurement cex:measurement2 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic2 ;
+    rdfs:comment "Longer description of Indicator2"@en .
+
+:Indicator3 a cex:Indicator ;
+    rdfs:label "Indicator3 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-24T20:00:32.234058"^^xsd:dateTime,
+        "2014-04-24T20:00:32.246244"^^xsd:dateTime,
+        "2014-04-24T20:00:32.268401"^^xsd:dateTime ;
+    lb:measurement cex:measurement3 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic3 ;
+    rdfs:comment "Longer description of Indicator3"@en .
+
+:Indicator4 a cex:Indicator ;
+    rdfs:label "Indicator4 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-24T20:00:32.234073"^^xsd:dateTime,
+        "2014-04-24T20:00:32.246252"^^xsd:dateTime,
+        "2014-04-24T20:00:32.268408"^^xsd:dateTime ;
+    lb:measurement cex:measurement4 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic4 ;
+    rdfs:comment "Longer description of Indicator4"@en .
 
 :Region0 a cex:Area ;
     rdfs:label "Region0"@en ;

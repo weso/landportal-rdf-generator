@@ -14,7 +14,11 @@ def generate_indicators():
     indicators = []
     for ind in range(rand_num):
         indicators.append(Indicator("test_indicator", ind, "Indicator"
-                          + str(ind)))
+                        + str(ind), description_en="Indicator" + str(ind) \
+                        + " description", preferable_tendency="decrease",
+                        measurement_unit="measurement" + str(ind),
+                        last_update=dt.datetime.now(), starred=True,
+                        topic="topic" + str(ind), indicator_type="Simple"))
     return indicators
 
 

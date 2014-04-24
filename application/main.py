@@ -8,6 +8,7 @@ from application.generators import generate_observations as observations
 from application.generators import generate_regions as regions
 from application.generators import generate_countries as countries
 from application.generators import generate_years as years
+from application.generators import generate_indicators as indicators
 from application.loader import load_data_set
 
 g = Graph()
@@ -51,6 +52,36 @@ def add_years_triples():
                cex.term("Time")))
         g.add((prefix_.term(year.name), time.term("year"),
                Literal(year.value, datatype=XSD.gYear)))
+
+
+def add_indicators_triples():
+    for ind in indicators():
+        g.add((prefix_.term(ind.name_en), RDF.type,
+               cex.term("Indicator")))
+
+        g.add((prefix_.term(ind.name_en), lb.term("preferable_tendency"),
+               cex.term(ind.preferable_tendency)))
+
+        g.add((prefix_.term(ind.name_en), lb.term("measurement"),
+               cex.term(ind.measurement_unit)))
+
+        g.add((prefix_.term(ind.name_en), lb.term("last_update"),
+               Literal(ind.last_update, datatype=XSD.dateTime)))
+
+        g.add((prefix_.term(ind.name_en), lb.term("starred"),
+               Literal(ind.starred, datatype=XSD.Boolean)))
+
+        g.add((prefix_.term(ind.name_en), lb.term("topic"),
+               cex.term(ind.topic)))
+
+        g.add((prefix_.term(ind.name_en), lb.term("indicatorType"),
+               cex.term(ind.indicator_type)))
+
+        g.add((prefix_.term(ind.name_en), RDFS.label,
+               Literal(ind.description_en, lang='en')))
+
+        g.add((prefix_.term(ind.name_en), RDFS.comment,
+              Literal("Longer description of " + ind.name_en, lang='en')))
 
 
 def add_observations_triples():
@@ -100,6 +131,7 @@ def initialize_graph():
     add_observations_triples()
     add_countries_triples()
     add_years_triples()
+    add_indicators_triples()
     bind_namespaces(g)
     return g
 
