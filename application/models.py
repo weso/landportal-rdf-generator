@@ -47,7 +47,9 @@ class Indicator(object):
     def __init__(self, chain_for_id, int_for_id, name_en=None, name_es=None,
                  name_fr=None, description_en=None, description_es=None,
                  description_fr=None, dataset=None, measurement_unit=None,
-                 topic=None):
+                 topic=None, preferable_tendency=None, last_update=None, starred=None,
+                 indicator_type=None):
+
         self.name_en = name_en
         self.name_es = name_es
         self.name_fr = name_fr
@@ -57,6 +59,10 @@ class Indicator(object):
         self.dataset = dataset
         self.measurement_unit = measurement_unit
         self.topic = topic
+        self.preferable_tendency = preferable_tendency
+        self.last_update = last_update
+        self.starred = starred
+        self.indicator_type = indicator_type
 
         self.indicator_id = self._generate_id(chain_for_id, int_for_id)
 
