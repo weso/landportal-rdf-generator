@@ -75,7 +75,8 @@ class Dimension(object):
     __metaclass__ = ABCMeta
 
     @abstractmethod
-    def get_dimension_string(self): pass
+    def get_dimension_string(self):
+        pass
 
 
 class Region(Dimension):
@@ -106,8 +107,12 @@ class Country(Region):
 
 
 class Year(object):
-    def __init__(self, year=None):
-        self.year = year
+    def __init__(self, name=None, value=None):
+        self.name = name
+        self.value = value
+
+    def __repr__(self):
+        return str(self.value)
 
 
 class Topic(object):

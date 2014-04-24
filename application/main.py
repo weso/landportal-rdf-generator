@@ -4,8 +4,10 @@ from rdflib import Literal, Graph, XSD
 from rdflib.namespace import RDF, RDFS
 
 from rdf_utils.namespaces_handler import *
-from application.generator import observations_generator
-from application.generator import regions_generator
+from application.generators import generate_observations as observations
+from application.generators import generate_regions as regions
+from application.generators import generate_countries as countries
+from application.generators import generate_years as years
 from application.loader import load_data_set
 
 g = Graph()
@@ -14,22 +16,53 @@ api1 = "sparql-graph-crud-auth?"
 graph_uri1 = "graph-uri=http://www.landportal.info"
 
 
-def initialize_graph_with_regions():
-    for region in regions_generator():
-        g.add((prefix_.term(region), RDF.type,
+def add_regions_triples():
+    for region in regions():
+        g.add((prefix_.term(region.name), RDF.type,
                cex.term("Area")))
 
+        g.add((prefix_.term(region.name), RDFS.label,
+              Literal(region.name, lang='en')))
 
-def initialize_graph_with_observations():
-    for obs in observations_generator():
+        g.add((prefix_.term(region.name), lb.term("UNCode"),
+               Literal("EU")))
+
+
+def add_countries_triples():
+    for country in countries():
+        g.add((prefix_.term(country.name), RDF.type,
+               cex.term("Area")))
+        g.add((prefix_.term(country.name), RDFS.label,
+              Literal(country.name, lang='en')))
+        g.add((prefix_.term(country.name), lb.term("FaoURI"),
+               Literal("<http://www.fao.org/countryprofiles/index/en/?iso3=" +
+                       country.iso3 + ">")))
+        g.add((prefix_.term(country.name), lb.term("iso2"),
+               Literal(str(country.iso2).upper())))
+        g.add((prefix_.term(country.name), lb.term("iso3"),
+               Literal(str(country.iso3).upper())))
+        g.add((prefix_.term(country.name), lb.term("is_part_of"),
+               prefix_.term(str(country.is_part_of))))
+
+
+def add_years_triples():
+    for year in years():
+        g.add((prefix_.term(year.name), RDF.type,
+               cex.term("Time")))
+        g.add((prefix_.term(year.name), time.term("year"),
+               Literal(year.value, datatype=XSD.gYear)))
+
+
+def add_observations_triples():
+    for obs in observations():
         g.add((prefix_.term(obs.observation_id), RDF.type,
                qb.term("Observation")))
 
         g.add((prefix_.term(obs.observation_id), cex.term("ref-time"),
-               prefix_.term(obs.ref_time)))
+               prefix_.term(str(obs.ref_time))))
 
         g.add((prefix_.term(obs.observation_id), cex.term("ref-area"),
-               prefix_.term(obs.ref_area)))
+              prefix_.term(obs.ref_area)))
 
         g.add((prefix_.term(obs.observation_id), cex.term("ref-indicator"),
                prefix_.term(str(obs.indicator))))
@@ -59,17 +92,14 @@ def initialize_graph_with_observations():
                lb.term("source"), prefix_.term(obs.source)))
 
         g.add((prefix_.term(obs.ref_area), RDF.type,
-               prefix_.term("Country")))
-
-        g.add((prefix_.term(obs.ref_time), RDF.type, prefix_.term("Time")))
-
-        g.add((prefix_.term(Literal(obs.indicator)), RDF.type,
-               cex.term("Indicator")))
+               cex.term("Area")))
 
 
 def initialize_graph():
-    initialize_graph_with_regions()
-    initialize_graph_with_observations()
+    add_regions_triples()
+    add_observations_triples()
+    add_countries_triples()
+    add_years_triples()
     bind_namespaces(g)
     return g
 
