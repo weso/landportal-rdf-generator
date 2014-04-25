@@ -14,6 +14,7 @@ from application.generators import generate_organizations as organizations
 from application.generators import generate_licenses as licenses
 from application.generators import generate_users as users
 from application.generators import generate_measurements as measurements
+from application.generators import generate_slices as slices
 from application.loader import load_data_set
 
 g = Graph()
@@ -177,6 +178,24 @@ def add_users_triples():
                prefix_.term(str(usr.organization))))
 
 
+def add_slices_triples():
+    for slc in slices():
+        g.add((prefix_.term(slc.slice_id), RDF.type,
+               qb.term("Slice")))
+
+        g.add((prefix_.term(slc.slice_id), cex.term("indicator"),
+               prefix_.term(str(slc.indicator))))
+
+        g.add((prefix_.term(slc.slice_id), qb.term("observation"),
+               prefix_.term("Obs")))
+
+        g.add((prefix_.term(slc.slice_id), lb.term("dimension"),
+               prefix_.term(slc.dimension)))
+
+        g.add((prefix_.term(slc.slice_id), qb.term("dataSet"),
+               prefix_.term(str(slc.dataset))))
+
+
 def initialize_graph():
     add_regions_triples()
     add_observations_triples()
@@ -188,6 +207,7 @@ def initialize_graph():
     add_organizations_triples()
     add_licenses_triples()
     add_users_triples()
+    add_slices_triples()
     bind_namespaces(g)
     return g
 
