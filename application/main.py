@@ -177,10 +177,23 @@ def add_users_triples():
         g.add((prefix_.term(usr.user_id), org.term("memberOf"),
                prefix_.term(str(usr.organization))))
 
+
 def add_slices_triples():
-    for slice in slices():
-        g.add((prefix_.term(slice.name), RDF.type,
-               lb.term("License")))
+    for slc in slices():
+        g.add((prefix_.term(slc.slice_id), RDF.type,
+               qb.term("Slice")))
+
+        g.add((prefix_.term(slc.slice_id), cex.term("indicator"),
+               prefix_.term(str(slc.indicator))))
+
+        g.add((prefix_.term(slc.slice_id), qb.term("observation"),
+               prefix_.term("Obs")))
+
+        g.add((prefix_.term(slc.slice_id), lb.term("dimension"),
+               prefix_.term(slc.dimension)))
+
+        g.add((prefix_.term(slc.slice_id), qb.term("dataSet"),
+               prefix_.term(str(slc.dataset))))
 
 
 def initialize_graph():
@@ -194,6 +207,7 @@ def initialize_graph():
     add_organizations_triples()
     add_licenses_triples()
     add_users_triples()
+    add_slices_triples()
     bind_namespaces(g)
     return g
 

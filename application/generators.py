@@ -12,7 +12,7 @@ rand_year = randint(1999, 2014)
 
 def generate_indicators():
     return [Indicator("test_indicator", ind, "Indicator"
-                      + str(ind), description_en="Indicator" + str(ind) \
+                      + str(ind), description_en="Indicator" + str(ind)
                       + " description", preferable_tendency="decrease",
                       measurement_unit="measurement" + str(ind),
                       last_update=dt.datetime.now(), starred=True,
@@ -21,8 +21,9 @@ def generate_indicators():
 
 
 def generate_slices():
-    return [Slice("", slc, "Area", generate_datasets()[slc],
-                  generate_indicators()[slc]) for slc in range(rand_num)]
+    return [Slice(chain_for_id="", int_for_id=slc, dimension="Area",
+                  dataset=generate_datasets()[slc],
+                  indicator=generate_indicators()[slc]) for slc in range(rand_num)]
 
 
 def generate_regions():
