@@ -26,7 +26,7 @@ class Observation(object):
         return "OBS" + chain_for_id.upper() + str(int_for_id).upper()
 
     def __repr__(self):
-        return "Observation=> " + "RefTime: " + self.ref_time + \
+        return "Observation=> " + "RefTime: " + str(self.ref_time) + \
                " Indicator: " + str(self.indicator) + " Computation: " + \
                str(self.computation) + " Issued: " + str(self.issued) + \
                " Value: " + str(self.value) + " RefArea: " + str(self.ref_area)\

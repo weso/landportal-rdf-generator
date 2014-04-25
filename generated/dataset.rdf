@@ -11,798 +11,798 @@
    xmlns:sdmx-concept="http://purl.org/linked-data/sdmx/2009/concept#"
    xmlns:time="http://www.w3.org/2006/time#"
 >
-  <rdf:Description rdf:about="http://example.org/Indicator1">
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <rdfs:comment xml:lang="en">Longer description of Indicator1</rdfs:comment>
-    <rdfs:label xml:lang="en">Indicator1 description</rdfs:label>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement1"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201572</lb:last_update>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic1"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537267</lb:last_update>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI0">
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_0"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator0"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload9">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:dataSource rdf:resource="http://example.org/dataSource9"/>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.804670</lb:timestamp>
-    <lb:user rdf:resource="http://example.org/user9"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.463940</lb:timestamp>
-    <lb:ip rdf:resource="http://example.org/156.34.56.9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload7">
-    <lb:dataSource rdf:resource="http://example.org/dataSource7"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.409442</lb:timestamp>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:ip rdf:resource="http://example.org/156.34.56.7"/>
-    <lb:user rdf:resource="http://example.org/user7"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.749735</lb:timestamp>
-    <lb:observation rdf:resource="http://example.org/"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/OBS8">
-    <rdfs:label xml:lang="en">Observation of Region8 in 2004 for Indicator8</rdfs:label>
-    <qb:dataSet rdf:resource="http://example.org/DAT_8"/>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.520134</dcterms:issued>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.186263</dcterms:issued>
-    <lb:source rdf:resource="http://example.org/upload8"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <cex:ref-area rdf:resource="http://example.org/Region8"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <qb:slice rdf:resource="http://example.org/SLI8"/>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.607644</dcterms:issued>
     <cex:ref-indicator rdf:resource="http://example.org/Indicator8"/>
     <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</cex:value>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator2">
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537277</lb:last_update>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement2"/>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic2"/>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201580</lb:last_update>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <rdfs:comment xml:lang="en">Longer description of Indicator2</rdfs:comment>
-    <rdfs:label xml:lang="en">Indicator2 description</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator8">
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement8"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <rdfs:label xml:lang="en">Indicator8 description</rdfs:label>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic8"/>
-    <rdfs:comment xml:lang="en">Longer description of Indicator8</rdfs:comment>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537324</lb:last_update>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201618</lb:last_update>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization5">
-    <foaf:homepage>&lt;http://www.organization5.org/&gt;</foaf:homepage>
-    <rdfs:label xml:lang="en">organization5</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload6">
-    <lb:ip rdf:resource="http://example.org/156.34.56.6"/>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:dataSource rdf:resource="http://example.org/dataSource6"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.382069</lb:timestamp>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.722017</lb:timestamp>
-    <lb:user rdf:resource="http://example.org/user6"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS6">
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</cex:value>
-    <qb:dataSet rdf:resource="http://example.org/DAT_6"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator6"/>
-    <cex:ref-area rdf:resource="http://example.org/Region6"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <qb:slice rdf:resource="http://example.org/SLI6"/>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <lb:source rdf:resource="http://example.org/upload6"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.514348</dcterms:issued>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.180706</dcterms:issued>
-    <rdfs:label xml:lang="en">Observation of Region6 in 2004 for Indicator6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator4">
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201593</lb:last_update>
-    <rdfs:label xml:lang="en">Indicator4 description</rdfs:label>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement4"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537294</lb:last_update>
-    <rdfs:comment xml:lang="en">Longer description of Indicator4</rdfs:comment>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic4"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI1">
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator1"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_1"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country2">
-    <lb:is_part_of rdf:resource="http://example.org/Region2"/>
-    <lb:iso2>CO</lb:iso2>
-    <lb:iso3>COU</lb:iso3>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <rdfs:label xml:lang="en">Country2</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country6">
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <lb:is_part_of rdf:resource="http://example.org/Region6"/>
-    <lb:iso2>CO</lb:iso2>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:iso3>COU</lb:iso3>
-    <rdfs:label xml:lang="en">Country6</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload5">
-    <lb:user rdf:resource="http://example.org/user5"/>
-    <lb:dataSource rdf:resource="http://example.org/dataSource5"/>
-    <lb:ip rdf:resource="http://example.org/156.34.56.5"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.354722</lb:timestamp>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.694233</lb:timestamp>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR3">
-    <org:memberOf rdf:resource="http://example.org/organization3"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:account>USR3</foaf:account>
-    <foaf:name>USR3</foaf:name>
-    <rdfs:label xml:lang="en">USR3</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license0">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country1">
-    <lb:is_part_of rdf:resource="http://example.org/Region1"/>
-    <lb:iso2>CO</lb:iso2>
-    <lb:iso3>COU</lb:iso3>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <rdfs:label xml:lang="en">Country1</rdfs:label>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic1">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-    <rdfs:label xml:lang="en">Topic1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI4">
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_4"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator4"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS3">
-    <lb:source rdf:resource="http://example.org/upload3"/>
-    <qb:slice rdf:resource="http://example.org/SLI3"/>
-    <cex:ref-area rdf:resource="http://example.org/Region3"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.505308</dcterms:issued>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator3"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.172416</dcterms:issued>
-    <rdfs:label xml:lang="en">Observation of Region3 in 2004 for Indicator3</rdfs:label>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_3"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</cex:value>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI8">
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator8"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <cex:ref-area rdf:resource="http://example.org/Region8"/>
     <qb:dataSet rdf:resource="http://example.org/DAT_8"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS5">
-    <lb:source rdf:resource="http://example.org/upload5"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</cex:value>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.511415</dcterms:issued>
-    <qb:slice rdf:resource="http://example.org/SLI5"/>
-    <rdfs:label xml:lang="en">Observation of Region5 in 2004 for Indicator5</rdfs:label>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.254150</dcterms:issued>
     <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <rdfs:label xml:lang="en">Observation of Region8 in year2004 for Indicator8</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_5"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator5"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.177861</dcterms:issued>
-    <cex:ref-area rdf:resource="http://example.org/Region5"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS4">
-    <qb:dataSet rdf:resource="http://example.org/DAT_4"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <qb:slice rdf:resource="http://example.org/SLI8"/>
     <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <rdfs:label xml:lang="en">Observation of Region4 in 2004 for Indicator4</rdfs:label>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <qb:slice rdf:resource="http://example.org/SLI4"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.175129</dcterms:issued>
-    <cex:ref-area rdf:resource="http://example.org/Region4"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</cex:value>
-    <lb:source rdf:resource="http://example.org/upload4"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator4"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.508023</dcterms:issued>
+    <lb:source rdf:resource="http://example.org/upload8"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS7">
-    <lb:source rdf:resource="http://example.org/upload7"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.517203</dcterms:issued>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.183397</dcterms:issued>
-    <cex:ref-area rdf:resource="http://example.org/Region7"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_7"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator7"/>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</cex:value>
-    <qb:slice rdf:resource="http://example.org/SLI7"/>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <rdfs:label xml:lang="en">Observation of Region7 in 2004 for Indicator7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI5">
+  <rdf:Description rdf:about="http://example.org/SLI3">
+    <cex:indicator rdf:resource="http://example.org/Indicator3"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_3"/>
     <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_5"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator5"/>
     <qb:observation rdf:resource="http://example.org/Obs"/>
     <lb:dimension rdf:resource="http://example.org/Area"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region5">
+  <rdf:Description rdf:about="http://example.org/upload0">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.638815</lb:timestamp>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.0"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource0"/>
+    <lb:observation rdf:resource="http://example.org/OBS0"/>
+    <lb:user rdf:resource="http://example.org/user0"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.285858</lb:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region0">
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <rdfs:label xml:lang="en">Region0</rdfs:label>
     <lb:UNCode>EU</lb:UNCode>
-    <rdfs:label xml:lang="en">Region5</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license3">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization1">
-    <foaf:homepage>&lt;http://www.organization1.org/&gt;</foaf:homepage>
-    <rdfs:label xml:lang="en">organization1</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/organization0">
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload2">
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.609542</lb:timestamp>
-    <lb:user rdf:resource="http://example.org/user2"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:dataSource rdf:resource="http://example.org/dataSource2"/>
-    <lb:ip rdf:resource="http://example.org/156.34.56.2"/>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.272294</lb:timestamp>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR9">
-    <foaf:account>USR9</foaf:account>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:name>USR9</foaf:name>
-    <rdfs:label xml:lang="en">USR9</rdfs:label>
-    <org:memberOf rdf:resource="http://example.org/organization9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator6">
-    <rdfs:label xml:lang="en">Indicator6 description</rdfs:label>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537309</lb:last_update>
-    <rdfs:comment xml:lang="en">Longer description of Indicator6</rdfs:comment>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201606</lb:last_update>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement6"/>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic6"/>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS1">
-    <qb:slice rdf:resource="http://example.org/SLI1"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator1"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cex:value>
-    <cex:ref-area rdf:resource="http://example.org/Region1"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.166719</dcterms:issued>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.499538</dcterms:issued>
-    <qb:dataSet rdf:resource="http://example.org/DAT_1"/>
-    <lb:source rdf:resource="http://example.org/upload1"/>
-    <rdfs:label xml:lang="en">Observation of Region1 in 2004 for Indicator1</rdfs:label>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator5">
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic5"/>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement5"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201599</lb:last_update>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdfs:comment xml:lang="en">Longer description of Indicator5</rdfs:comment>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537302</lb:last_update>
-    <rdfs:label xml:lang="en">Indicator5 description</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization9">
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <rdfs:label xml:lang="en">organization9</rdfs:label>
-    <foaf:homepage>&lt;http://www.organization9.org/&gt;</foaf:homepage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country4">
-    <lb:iso2>CO</lb:iso2>
-    <lb:iso3>COU</lb:iso3>
-    <lb:is_part_of rdf:resource="http://example.org/Region4"/>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <rdfs:label xml:lang="en">Country4</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload3">
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.637541</lb:timestamp>
-    <lb:dataSource rdf:resource="http://example.org/dataSource3"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:ip rdf:resource="http://example.org/156.34.56.3"/>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:user rdf:resource="http://example.org/user3"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.299804</lb:timestamp>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization7">
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <foaf:homepage>&lt;http://www.organization7.org/&gt;</foaf:homepage>
-    <rdfs:label xml:lang="en">organization7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator3">
-    <rdfs:comment xml:lang="en">Longer description of Indicator3</rdfs:comment>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201587</lb:last_update>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdfs:label xml:lang="en">Indicator3 description</rdfs:label>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement3"/>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic3"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537286</lb:last_update>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license8">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country3">
-    <lb:iso2>CO</lb:iso2>
-    <lb:iso3>COU</lb:iso3>
-    <lb:is_part_of rdf:resource="http://example.org/Region3"/>
-    <rdfs:label xml:lang="en">Country3</rdfs:label>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS0">
-    <qb:slice rdf:resource="http://example.org/SLI0"/>
-    <cex:ref-area rdf:resource="http://example.org/Region0"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_0"/>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <lb:source rdf:resource="http://example.org/upload0"/>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cex:value>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
-    <rdfs:label xml:lang="en">Observation of Region0 in 2004 for Indicator0</rdfs:label>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator0"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.496630</dcterms:issued>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.163922</dcterms:issued>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement1">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-    <rdfs:label xml:lang="en">measurement1</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR7">
-    <rdfs:label xml:lang="en">USR7</rdfs:label>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:account>USR7</foaf:account>
-    <foaf:name>USR7</foaf:name>
-    <org:memberOf rdf:resource="http://example.org/organization7"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country8">
-    <lb:is_part_of rdf:resource="http://example.org/Region8"/>
-    <lb:iso2>CO</lb:iso2>
-    <rdfs:label xml:lang="en">Country8</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:iso3>COU</lb:iso3>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR5">
-    <org:memberOf rdf:resource="http://example.org/organization5"/>
-    <rdfs:label xml:lang="en">USR5</rdfs:label>
-    <foaf:account>USR5</foaf:account>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:name>USR5</foaf:name>
+    <rdfs:label xml:lang="en">organization0</rdfs:label>
+    <foaf:homepage>&lt;http://www.organization0.org/&gt;</foaf:homepage>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/OBS9">
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
-    <lb:source rdf:resource="http://example.org/upload9"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_9"/>
-    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator9"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.189191</dcterms:issued>
-    <rdfs:label xml:lang="en">Observation of Region9 in 2004 for Indicator9</rdfs:label>
-    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
     <cex:ref-time rdf:resource="http://example.org/2004"/>
     <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.0</cex:value>
-    <qb:slice rdf:resource="http://example.org/SLI9"/>
-    <cex:ref-area rdf:resource="http://example.org/Region9"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.522838</dcterms:issued>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region3">
-    <lb:UNCode>EU</lb:UNCode>
-    <rdfs:label xml:lang="en">Region3</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement9">
-    <rdfs:label xml:lang="en">measurement9</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR2">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:name>USR2</foaf:name>
-    <foaf:account>USR2</foaf:account>
-    <rdfs:label xml:lang="en">USR2</rdfs:label>
-    <org:memberOf rdf:resource="http://example.org/organization2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator9">
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537333</lb:last_update>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201625</lb:last_update>
-    <rdfs:label xml:lang="en">Indicator9 description</rdfs:label>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic9"/>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement9"/>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <rdfs:comment xml:lang="en">Longer description of Indicator9</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload4">
-    <lb:ip rdf:resource="http://example.org/156.34.56.4"/>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:dataSource rdf:resource="http://example.org/dataSource4"/>
-    <lb:user rdf:resource="http://example.org/user4"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.327290</lb:timestamp>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.665955</lb:timestamp>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic3">
-    <rdfs:label xml:lang="en">Topic3</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/OBS2">
-    <rdfs:label xml:lang="en">Observation of Region2 in 2004 for Indicator2</rdfs:label>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.169668</dcterms:issued>
-    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</cex:value>
-    <cex:ref-indicator rdf:resource="http://example.org/Indicator2"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_2"/>
-    <lb:source rdf:resource="http://example.org/upload2"/>
-    <cex:ref-area rdf:resource="http://example.org/Region2"/>
-    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_9"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator9"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <lb:source rdf:resource="http://example.org/upload9"/>
     <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.502477</dcterms:issued>
+    <cex:ref-area rdf:resource="http://example.org/Region9"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.257281</dcterms:issued>
+    <rdfs:label xml:lang="en">Observation of Region9 in year2004 for Indicator9</rdfs:label>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.610633</dcterms:issued>
+    <qb:slice rdf:resource="http://example.org/SLI9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization4">
+    <foaf:homepage>&lt;http://www.organization4.org/&gt;</foaf:homepage>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <rdfs:label xml:lang="en">organization4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS5">
+    <qb:dataSet rdf:resource="http://example.org/DAT_5"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator5"/>
+    <qb:slice rdf:resource="http://example.org/SLI5"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</cex:value>
+    <rdfs:label xml:lang="en">Observation of Region5 in year2004 for Indicator5</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
     <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
-    <qb:slice rdf:resource="http://example.org/SLI2"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <lb:source rdf:resource="http://example.org/upload5"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <cex:ref-area rdf:resource="http://example.org/Region5"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.245363</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.598855</dcterms:issued>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR8">
-    <org:memberOf rdf:resource="http://example.org/organization8"/>
-    <rdfs:label xml:lang="en">USR8</rdfs:label>
-    <foaf:account>USR8</foaf:account>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:name>USR8</foaf:name>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI9">
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator9"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country9">
-    <rdfs:label xml:lang="en">Country9</rdfs:label>
-    <lb:iso3>COU</lb:iso3>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <lb:iso2>CO</lb:iso2>
-    <lb:is_part_of rdf:resource="http://example.org/Region9"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country5">
-    <lb:iso2>CO</lb:iso2>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <rdfs:label xml:lang="en">Country5</rdfs:label>
-    <lb:is_part_of rdf:resource="http://example.org/Region5"/>
-    <lb:iso3>COU</lb:iso3>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload8">
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.776960</lb:timestamp>
-    <lb:ip rdf:resource="http://example.org/156.34.56.8"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.436695</lb:timestamp>
-    <lb:dataSource rdf:resource="http://example.org/dataSource8"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-    <lb:user rdf:resource="http://example.org/user8"/>
+  <rdf:Description rdf:about="http://example.org/measurement3">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+    <rdfs:label xml:lang="en">measurement3</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Region7">
     <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
     <rdfs:label xml:lang="en">Region7</rdfs:label>
     <lb:UNCode>EU</lb:UNCode>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR4">
-    <org:memberOf rdf:resource="http://example.org/organization4"/>
-    <foaf:name>USR4</foaf:name>
-    <rdfs:label xml:lang="en">USR4</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/SLI6">
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator6"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator9">
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic9"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <rdfs:comment xml:lang="en">Longer description of Indicator9</rdfs:comment>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270226</lb:last_update>
+    <rdfs:label xml:lang="en">Indicator9 description</rdfs:label>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623744</lb:last_update>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country2">
+    <lb:is_part_of rdf:resource="http://example.org/Region2"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <rdfs:label xml:lang="en">Country2</rdfs:label>
+    <lb:iso2>CO</lb:iso2>
+    <lb:iso3>COU</lb:iso3>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region4">
+    <rdfs:label xml:lang="en">Region4</rdfs:label>
+    <lb:UNCode>EU</lb:UNCode>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country8">
+    <rdfs:label xml:lang="en">Country8</rdfs:label>
+    <lb:iso3>COU</lb:iso3>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:is_part_of rdf:resource="http://example.org/Region8"/>
+    <lb:iso2>CO</lb:iso2>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator4">
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic4"/>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement4"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270192</lb:last_update>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623710</lb:last_update>
+    <rdfs:label xml:lang="en">Indicator4 description</rdfs:label>
+    <rdfs:comment xml:lang="en">Longer description of Indicator4</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator8">
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <rdfs:comment xml:lang="en">Longer description of Indicator8</rdfs:comment>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <rdfs:label xml:lang="en">Indicator8 description</rdfs:label>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic8"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270218</lb:last_update>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement8"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623737</lb:last_update>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region9">
+    <lb:UNCode>EU</lb:UNCode>
+    <rdfs:label xml:lang="en">Region9</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization5">
+    <rdfs:label xml:lang="en">organization5</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <foaf:homepage>&lt;http://www.organization5.org/&gt;</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region6">
+    <rdfs:label xml:lang="en">Region6</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:UNCode>EU</lb:UNCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/license7">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement0">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+    <rdfs:label xml:lang="en">measurement0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR8">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">USR8</rdfs:label>
+    <foaf:account>USR8</foaf:account>
+    <foaf:name>USR8</foaf:name>
+    <org:memberOf rdf:resource="http://example.org/organization8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country9">
+    <lb:iso2>CO</lb:iso2>
+    <lb:is_part_of rdf:resource="http://example.org/Region9"/>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <rdfs:label xml:lang="en">Country9</rdfs:label>
+    <lb:iso3>COU</lb:iso3>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI5">
+    <cex:indicator rdf:resource="http://example.org/Indicator5"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_5"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Topic9">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+    <rdfs:label xml:lang="en">Topic9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS6">
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.601737</dcterms:issued>
+    <cex:ref-area rdf:resource="http://example.org/Region6"/>
+    <qb:slice rdf:resource="http://example.org/SLI6"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator6"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</cex:value>
+    <qb:dataSet rdf:resource="http://example.org/DAT_6"/>
+    <lb:source rdf:resource="http://example.org/upload6"/>
+    <rdfs:label xml:lang="en">Observation of Region6 in year2004 for Indicator6</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.248391</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS3">
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0</cex:value>
+    <lb:source rdf:resource="http://example.org/upload3"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <rdfs:label xml:lang="en">Observation of Region3 in year2004 for Indicator3</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator3"/>
+    <cex:ref-area rdf:resource="http://example.org/Region3"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.239687</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.592837</dcterms:issued>
+    <qb:slice rdf:resource="http://example.org/SLI3"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country1">
+    <rdfs:label xml:lang="en">Country1</rdfs:label>
+    <lb:iso3>COU</lb:iso3>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:is_part_of rdf:resource="http://example.org/Region1"/>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <lb:iso2>CO</lb:iso2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR4">
+    <foaf:name>USR4</foaf:name>
+    <org:memberOf rdf:resource="http://example.org/organization4"/>
     <foaf:account>USR4</foaf:account>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">USR4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region8">
+    <lb:UNCode>EU</lb:UNCode>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <rdfs:label xml:lang="en">Region8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator1">
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic1"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623686</lb:last_update>
+    <rdfs:label xml:lang="en">Indicator1 description</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <rdfs:comment xml:lang="en">Longer description of Indicator1</rdfs:comment>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement1"/>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270167</lb:last_update>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country7">
+    <rdfs:label xml:lang="en">Country7</rdfs:label>
+    <lb:iso3>COU</lb:iso3>
+    <lb:iso2>CO</lb:iso2>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <lb:is_part_of rdf:resource="http://example.org/Region7"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload8">
+    <lb:observation rdf:resource="http://example.org/OBS8"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource8"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.520068</lb:timestamp>
+    <lb:ip rdf:resource="http://example.org/156.34.56.8"/>
+    <lb:user rdf:resource="http://example.org/user8"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.866949</lb:timestamp>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload6">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.461147</lb:timestamp>
+    <lb:user rdf:resource="http://example.org/user6"/>
+    <lb:observation rdf:resource="http://example.org/OBS6"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.810154</lb:timestamp>
+    <lb:dataSource rdf:resource="http://example.org/dataSource6"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country6">
+    <lb:iso3>COU</lb:iso3>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <rdfs:label xml:lang="en">Country6</rdfs:label>
+    <lb:iso2>CO</lb:iso2>
+    <lb:is_part_of rdf:resource="http://example.org/Region6"/>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Topic5">
+    <rdfs:label xml:lang="en">Topic5</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI4">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator4"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_4"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI8">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator8"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country5">
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:iso3>COU</lb:iso3>
+    <lb:is_part_of rdf:resource="http://example.org/Region5"/>
+    <rdfs:label xml:lang="en">Country5</rdfs:label>
+    <lb:iso2>CO</lb:iso2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR9">
+    <foaf:name>USR9</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">USR9</rdfs:label>
+    <foaf:account>USR9</foaf:account>
+    <org:memberOf rdf:resource="http://example.org/organization9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator0">
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <rdfs:label xml:lang="en">Indicator0 description</rdfs:label>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623646</lb:last_update>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement0"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270144</lb:last_update>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic0"/>
+    <rdfs:comment xml:lang="en">Longer description of Indicator0</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS1">
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator1"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_1"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <qb:slice rdf:resource="http://example.org/SLI1"/>
+    <cex:ref-area rdf:resource="http://example.org/Region1"/>
+    <rdfs:label xml:lang="en">Observation of Region1 in year2004 for Indicator1</rdfs:label>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.233862</dcterms:issued>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <lb:source rdf:resource="http://example.org/upload1"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.587177</dcterms:issued>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</cex:value>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Topic4">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+    <rdfs:label xml:lang="en">Topic4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Topic0">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+    <rdfs:label xml:lang="en">Topic0</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization2">
+    <rdfs:label xml:lang="en">organization2</rdfs:label>
+    <foaf:homepage>&lt;http://www.organization2.org/&gt;</foaf:homepage>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/year2004">
+    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</time:year>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS7">
+    <cex:ref-area rdf:resource="http://example.org/Region7"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator7"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_7"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <lb:source rdf:resource="http://example.org/upload7"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</cex:value>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.251253</dcterms:issued>
+    <qb:slice rdf:resource="http://example.org/SLI7"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.604787</dcterms:issued>
+    <rdfs:label xml:lang="en">Observation of Region7 in year2004 for Indicator7</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement9">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+    <rdfs:label xml:lang="en">measurement9</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator5">
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <rdfs:label xml:lang="en">Indicator5 description</rdfs:label>
+    <rdfs:comment xml:lang="en">Longer description of Indicator5</rdfs:comment>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270199</lb:last_update>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement5"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623718</lb:last_update>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic5"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS4">
+    <cex:ref-area rdf:resource="http://example.org/Region4"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator4"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_4"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.242505</dcterms:issued>
+    <rdfs:label xml:lang="en">Observation of Region4 in year2004 for Indicator4</rdfs:label>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.0</cex:value>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <lb:source rdf:resource="http://example.org/upload4"/>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <qb:slice rdf:resource="http://example.org/SLI4"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.595979</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator7">
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement7"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623731</lb:last_update>
+    <rdfs:comment xml:lang="en">Longer description of Indicator7</rdfs:comment>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic7"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270211</lb:last_update>
+    <rdfs:label xml:lang="en">Indicator7 description</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization7">
+    <rdfs:label xml:lang="en">organization7</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <foaf:homepage>&lt;http://www.organization7.org/&gt;</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement7">
+    <rdfs:label xml:lang="en">measurement7</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI7">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator7"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload7">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.490329</lb:timestamp>
+    <lb:ip rdf:resource="http://example.org/156.34.56.7"/>
+    <lb:observation rdf:resource="http://example.org/OBS7"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource7"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.838475</lb:timestamp>
+    <lb:user rdf:resource="http://example.org/user7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS0">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.584072</dcterms:issued>
+    <qb:dataSet rdf:resource="http://example.org/DAT_0"/>
+    <lb:source rdf:resource="http://example.org/upload0"/>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <cex:ref-area rdf:resource="http://example.org/Region0"/>
+    <qb:slice rdf:resource="http://example.org/SLI0"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</cex:value>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <rdfs:label xml:lang="en">Observation of Region0 in year2004 for Indicator0</rdfs:label>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.230514</dcterms:issued>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload9">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.549086</lb:timestamp>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.895242</lb:timestamp>
+    <lb:observation rdf:resource="http://example.org/OBS9"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.9"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource9"/>
+    <lb:user rdf:resource="http://example.org/user9"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload3">
+    <lb:user rdf:resource="http://example.org/user3"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource3"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.3"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.725744</lb:timestamp>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.373753</lb:timestamp>
+    <lb:observation rdf:resource="http://example.org/OBS3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <foaf:homepage>&lt;http://www.organization8.org/&gt;</foaf:homepage>
+    <rdfs:label xml:lang="en">organization8</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator3">
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270183</lb:last_update>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623703</lb:last_update>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <rdfs:comment xml:lang="en">Longer description of Indicator3</rdfs:comment>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <rdfs:label xml:lang="en">Indicator3 description</rdfs:label>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic3"/>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/license9">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>USR1</foaf:name>
+    <rdfs:label xml:lang="en">USR1</rdfs:label>
+    <foaf:account>USR1</foaf:account>
+    <org:memberOf rdf:resource="http://example.org/organization1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country4">
+    <lb:iso2>CO</lb:iso2>
+    <rdfs:label xml:lang="en">Country4</rdfs:label>
+    <lb:iso3>COU</lb:iso3>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:is_part_of rdf:resource="http://example.org/Region4"/>
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload2">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.696938</lb:timestamp>
+    <lb:user rdf:resource="http://example.org/user2"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.2"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.344418</lb:timestamp>
+    <lb:observation rdf:resource="http://example.org/OBS2"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource2"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization9">
+    <rdfs:label xml:lang="en">organization9</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <foaf:homepage>&lt;http://www.organization9.org/&gt;</foaf:homepage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement5">
+    <rdfs:label xml:lang="en">measurement5</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/OBS2">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+    <lb:source rdf:resource="http://example.org/upload2"/>
+    <cex:ref-area rdf:resource="http://example.org/Region2"/>
+    <cex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0</cex:value>
+    <cex:computation rdf:resource="http://purl.org/weso/computex/ontology#RAW"/>
+    <cex:ref-time rdf:resource="http://example.org/2004"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_2"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.236705</dcterms:issued>
+    <rdfs:label xml:lang="en">Observation of Region2 in year2004 for Indicator2</rdfs:label>
+    <sdmx-concept:obsStatus rdf:resource="http://purl.org/linked-data/sdmx/2009/code#obsStatus-A"/>
+    <cex:ref-indicator rdf:resource="http://example.org/Indicator2"/>
+    <qb:slice rdf:resource="http://example.org/SLI2"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.590007</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+    <foaf:homepage>&lt;http://www.organization1.org/&gt;</foaf:homepage>
+    <rdfs:label xml:lang="en">organization1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region5">
+    <rdfs:label xml:lang="en">Region5</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:UNCode>EU</lb:UNCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI2">
+    <cex:indicator rdf:resource="http://example.org/Indicator2"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR2">
+    <foaf:name>USR2</foaf:name>
+    <rdfs:label xml:lang="en">USR2</rdfs:label>
+    <foaf:account>USR2</foaf:account>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <org:memberOf rdf:resource="http://example.org/organization2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/license2">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Indicator2">
+    <rdfs:comment xml:lang="en">Longer description of Indicator2</rdfs:comment>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270175</lb:last_update>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic2"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623696</lb:last_update>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement2"/>
+    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
+    <rdfs:label xml:lang="en">Indicator2 description</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/USR0">
+    <org:memberOf rdf:resource="http://example.org/organization0"/>
+    <rdfs:label xml:lang="en">USR0</rdfs:label>
+    <foaf:account>USR0</foaf:account>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:name>USR0</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/USR6">
-    <foaf:name>USR6</foaf:name>
-    <org:memberOf rdf:resource="http://example.org/organization6"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:label xml:lang="en">USR6</rdfs:label>
     <foaf:account>USR6</foaf:account>
+    <org:memberOf rdf:resource="http://example.org/organization6"/>
+    <foaf:name>USR6</foaf:name>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region1">
-    <lb:UNCode>EU</lb:UNCode>
-    <rdfs:label xml:lang="en">Region1</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic4">
-    <rdfs:label xml:lang="en">Topic4</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country0">
-    <lb:is_part_of rdf:resource="http://example.org/Region0"/>
-    <lb:iso3>COU</lb:iso3>
-    <rdfs:label xml:lang="en">Country0</rdfs:label>
-    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
-    <lb:iso2>CO</lb:iso2>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement8">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-    <rdfs:label xml:lang="en">measurement8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization4">
-    <rdfs:label xml:lang="en">organization4</rdfs:label>
-    <foaf:homepage>&lt;http://www.organization4.org/&gt;</foaf:homepage>
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI7">
-    <cex:indicator rdf:resource="http://example.org/Indicator7"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_7"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator7">
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
-    <rdfs:comment xml:lang="en">Longer description of Indicator7</rdfs:comment>
+  <rdf:Description rdf:about="http://example.org/Indicator6">
+    <rdfs:label xml:lang="en">Indicator6 description</rdfs:label>
+    <rdfs:comment xml:lang="en">Longer description of Indicator6</rdfs:comment>
+    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic6"/>
     <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement7"/>
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdfs:label xml:lang="en">Indicator7 description</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic7"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201612</lb:last_update>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537317</lb:last_update>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.623724</lb:last_update>
+    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement6"/>
+    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.270205</lb:last_update>
+    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
+    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI0">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator0"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_0"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Topic8">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
     <rdfs:label xml:lang="en">Topic8</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/upload0">
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.216655</lb:timestamp>
-    <lb:dataSource rdf:resource="http://example.org/dataSource0"/>
-    <lb:user rdf:resource="http://example.org/user0"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.552597</lb:timestamp>
-    <lb:observation rdf:resource="http://example.org/"/>
-    <lb:ip rdf:resource="http://example.org/156.34.56.0"/>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region9">
-    <rdfs:label xml:lang="en">Region9</rdfs:label>
-    <lb:UNCode>EU</lb:UNCode>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic6">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-    <rdfs:label xml:lang="en">Topic6</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Country7">
-    <lb:is_part_of rdf:resource="http://example.org/Region7"/>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+  <rdf:Description rdf:about="http://example.org/Topic3">
+    <rdfs:label xml:lang="en">Topic3</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/organization6">
+    <rdfs:label xml:lang="en">organization6</rdfs:label>
+    <foaf:homepage>&lt;http://www.organization6.org/&gt;</foaf:homepage>
+    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/license5">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/upload5">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.782048</lb:timestamp>
+    <lb:user rdf:resource="http://example.org/user5"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.432039</lb:timestamp>
+    <lb:dataSource rdf:resource="http://example.org/dataSource5"/>
+    <lb:observation rdf:resource="http://example.org/OBS5"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement1">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+    <rdfs:label xml:lang="en">measurement1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country3">
     <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
     <lb:iso2>CO</lb:iso2>
+    <rdfs:label xml:lang="en">Country3</rdfs:label>
     <lb:iso3>COU</lb:iso3>
-    <rdfs:label xml:lang="en">Country7</rdfs:label>
+    <lb:is_part_of rdf:resource="http://example.org/Region3"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic9">
-    <rdfs:label xml:lang="en">Topic9</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic5">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-    <rdfs:label xml:lang="en">Topic5</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization3">
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <foaf:homepage>&lt;http://www.organization3.org/&gt;</foaf:homepage>
-    <rdfs:label xml:lang="en">organization3</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/upload4">
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.402904</lb:timestamp>
+    <lb:user rdf:resource="http://example.org/user4"/>
+    <lb:observation rdf:resource="http://example.org/OBS4"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.753917</lb:timestamp>
+    <lb:ip rdf:resource="http://example.org/156.34.56.4"/>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
+    <lb:dataSource rdf:resource="http://example.org/dataSource4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Region2">
     <lb:UNCode>EU</lb:UNCode>
     <rdfs:label xml:lang="en">Region2</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI2">
-    <cex:indicator rdf:resource="http://example.org/Indicator2"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_2"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+  <rdf:Description rdf:about="http://example.org/measurement4">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+    <rdfs:label xml:lang="en">measurement4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Country0">
+    <lb:FaoURI>&lt;http://www.fao.org/countryprofiles/index/en/?iso3=cou&gt;</lb:FaoURI>
+    <lb:is_part_of rdf:resource="http://example.org/Region0"/>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <lb:iso3>COU</lb:iso3>
+    <rdfs:label xml:lang="en">Country0</rdfs:label>
+    <lb:iso2>CO</lb:iso2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI1">
+    <qb:dataSet rdf:resource="http://example.org/DAT_1"/>
     <qb:observation rdf:resource="http://example.org/Obs"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator1"/>
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
     <lb:dimension rdf:resource="http://example.org/Area"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/license0">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Topic6">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+    <rdfs:label xml:lang="en">Topic6</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/measurement6">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
     <rdfs:label xml:lang="en">measurement6</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization0">
-    <rdfs:label xml:lang="en">organization0</rdfs:label>
-    <foaf:homepage>&lt;http://www.organization0.org/&gt;</foaf:homepage>
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region0">
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:UNCode>EU</lb:UNCode>
-    <rdfs:label xml:lang="en">Region0</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license6">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement0">
-    <rdfs:label xml:lang="en">measurement0</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR0">
-    <rdfs:label xml:lang="en">USR0</rdfs:label>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <foaf:account>USR0</foaf:account>
-    <foaf:name>USR0</foaf:name>
-    <org:memberOf rdf:resource="http://example.org/organization0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement5">
-    <rdfs:label xml:lang="en">measurement5</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/measurement8">
+    <rdfs:label xml:lang="en">measurement8</rdfs:label>
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/upload1">
-    <lb:ip rdf:resource="http://example.org/156.34.56.1"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.244875</lb:timestamp>
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Upload"/>
     <lb:user rdf:resource="http://example.org/user1"/>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.668101</lb:timestamp>
+    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T19:38:45.315173</lb:timestamp>
     <lb:dataSource rdf:resource="http://example.org/dataSource1"/>
-    <lb:timestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.581450</lb:timestamp>
-    <lb:observation rdf:resource="http://example.org/"/>
+    <lb:observation rdf:resource="http://example.org/OBS1"/>
+    <lb:ip rdf:resource="http://example.org/156.34.56.1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/USR1">
-    <foaf:account>USR1</foaf:account>
-    <foaf:name>USR1</foaf:name>
+  <rdf:Description rdf:about="http://example.org/USR7">
+    <foaf:name>USR7</foaf:name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <org:memberOf rdf:resource="http://example.org/organization1"/>
-    <rdfs:label xml:lang="en">USR1</rdfs:label>
+    <org:memberOf rdf:resource="http://example.org/organization7"/>
+    <rdfs:label xml:lang="en">USR7</rdfs:label>
+    <foaf:account>USR7</foaf:account>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement2">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-    <rdfs:label xml:lang="en">measurement2</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/USR5">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">USR5</rdfs:label>
+    <org:memberOf rdf:resource="http://example.org/organization5"/>
+    <foaf:name>USR5</foaf:name>
+    <foaf:account>USR5</foaf:account>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI6">
-    <cex:indicator rdf:resource="http://example.org/Indicator6"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_6"/>
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization2">
-    <rdfs:label xml:lang="en">organization2</rdfs:label>
+  <rdf:Description rdf:about="http://example.org/organization3">
+    <rdfs:label xml:lang="en">organization3</rdfs:label>
+    <foaf:homepage>&lt;http://www.organization3.org/&gt;</foaf:homepage>
     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <foaf:homepage>&lt;http://www.organization2.org/&gt;</foaf:homepage>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization8">
-    <rdfs:label xml:lang="en">organization8</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-    <foaf:homepage>&lt;http://www.organization8.org/&gt;</foaf:homepage>
+  <rdf:Description rdf:about="http://example.org/Region1">
+    <lb:UNCode>EU</lb:UNCode>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <rdfs:label xml:lang="en">Region1</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Region3">
+    <lb:UNCode>EU</lb:UNCode>
+    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
+    <rdfs:label xml:lang="en">Region3</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Topic2">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
     <rdfs:label xml:lang="en">Topic2</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Indicator0">
-    <lb:starred rdf:datatype="http://www.w3.org/2001/XMLSchema#Boolean">true</lb:starred>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Indicator"/>
-    <lb:indicatorType rdf:resource="http://purl.org/weso/computex/ontology#Simple"/>
-    <rdfs:label xml:lang="en">Indicator0 description</rdfs:label>
-    <lb:measurement rdf:resource="http://purl.org/weso/computex/ontology#measurement0"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.201553</lb:last_update>
-    <lb:topic rdf:resource="http://purl.org/weso/computex/ontology#topic0"/>
-    <lb:last_update rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-25T18:27:53.537237</lb:last_update>
-    <rdfs:comment xml:lang="en">Longer description of Indicator0</rdfs:comment>
-    <lb:preferable_tendency rdf:resource="http://purl.org/weso/computex/ontology#decrease"/>
+  <rdf:Description rdf:about="http://example.org/USR3">
+    <org:memberOf rdf:resource="http://example.org/organization3"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:label xml:lang="en">USR3</rdfs:label>
+    <foaf:name>USR3</foaf:name>
+    <foaf:account>USR3</foaf:account>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/measurement2">
+    <rdfs:label xml:lang="en">measurement2</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/SLI9">
+    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
+    <lb:dimension rdf:resource="http://example.org/Area"/>
+    <qb:observation rdf:resource="http://example.org/Obs"/>
+    <cex:indicator rdf:resource="http://example.org/Indicator9"/>
+    <qb:dataSet rdf:resource="http://example.org/DAT_9"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/license4">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license2">
+  <rdf:Description rdf:about="http://example.org/license6">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Topic7">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
     <rdfs:label xml:lang="en">Topic7</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region8">
-    <lb:UNCode>EU</lb:UNCode>
-    <rdfs:label xml:lang="en">Region8</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement3">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-    <rdfs:label xml:lang="en">measurement3</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region6">
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <rdfs:label xml:lang="en">Region6</rdfs:label>
-    <lb:UNCode>EU</lb:UNCode>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Topic0">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
-    <rdfs:label xml:lang="en">Topic0</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement7">
-    <rdfs:label xml:lang="en">measurement7</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
+  <rdf:Description rdf:about="http://example.org/Topic1">
+    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Topic"/>
+    <rdfs:label xml:lang="en">Topic1</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/year2004">
-    <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2004</time:year>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Time"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license9">
+  <rdf:Description rdf:about="http://example.org/license8">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/SLI3">
-    <qb:observation rdf:resource="http://example.org/Obs"/>
-    <cex:indicator rdf:resource="http://example.org/Indicator3"/>
-    <rdf:type rdf:resource="http://purl.org/linked-data/cube#Slice"/>
-    <qb:dataSet rdf:resource="http://example.org/DAT_3"/>
-    <lb:dimension rdf:resource="http://example.org/Area"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Region4">
-    <rdfs:label xml:lang="en">Region4</rdfs:label>
-    <rdf:type rdf:resource="http://purl.org/weso/computex/ontology#Area"/>
-    <lb:UNCode>EU</lb:UNCode>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/measurement4">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#Measurement"/>
-    <rdfs:label xml:lang="en">measurement4</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/organization6">
-    <foaf:homepage>&lt;http://www.organization6.org/&gt;</foaf:homepage>
-    <rdfs:label xml:lang="en">organization6</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license5">
+  <rdf:Description rdf:about="http://example.org/license3">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/license1">
-    <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/license7">
     <rdf:type rdf:resource="http://purl.org/weso/landbook/ontology#License"/>
   </rdf:Description>
 </rdf:RDF>

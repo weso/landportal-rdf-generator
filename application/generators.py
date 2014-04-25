@@ -23,8 +23,9 @@ def generate_indicators():
 
 def generate_slices():
     return [Slice(chain_for_id="", int_for_id=slc, dimension="Area",
-                  dataset=generate_datasets()[slc],
-                  indicator=generate_indicators()[slc]) for slc in range(rand_num)]
+                  dataset=generate_datasets()[slc].dataset_id,
+                  indicator=generate_indicators()[slc].name_en)
+            for slc in range(rand_num)]
 
 
 def generate_regions():
@@ -32,7 +33,7 @@ def generate_regions():
 
 
 def generate_countries():
-    return [Country("Country" + str(country), generate_regions()[country],
+    return [Country("Country" + str(country), generate_regions()[country].name,
                     "co", "cou") for country in range(rand_num)]
 
 
@@ -40,11 +41,7 @@ def generate_years():
     return [Year("year" + str(rand_year), rand_year) for year in range(rand_num)]
 
 
-computations = []
-
-def generate_computations():
-    computations.append(Computation("RAW"))
-    return computations
+computation = Computation("RAW")
 
 
 def generate_datasources():
@@ -54,7 +51,7 @@ def generate_datasources():
 
 def generate_datasets():
     return [Dataset("", dat, "freq-A", "license" + str(dat),
-                    generate_datasources()[dat]) for dat in range(rand_num)]
+                    generate_datasources()[dat].name) for dat in range(rand_num)]
 
 
 def generate_observations():
@@ -63,16 +60,15 @@ def generate_observations():
     for testing purposes
     """
     return [Observation("", obs, generate_years()[obs],
-                        dt.datetime.now(),
-                        generate_computations()[obs],
+                        dt.datetime.now(), computation.uri,
                         float(obs),
-                        generate_indicators()[obs],
-                        generate_datasets()[obs],
-                        str(generate_regions()[obs]),
+                        generate_indicators()[obs].name_en,
+                        generate_datasets()[obs].dataset_id,
+                        generate_regions()[obs].name,
                         "Observation of "
-                        + str(generate_regions()[obs]) + " in " +
-                        str(generate_years()[obs]) + " for " +
-                        str(generate_indicators()[obs]), "upload"
+                        + generate_regions()[obs].name + " in " +
+                        generate_years()[obs].name + " for " +
+                        generate_indicators()[obs].name_en, "upload"
                         + str(obs), "obsStatus-A",
                         generate_slices()[obs])
             for obs in range(rand_num)]
@@ -91,8 +87,8 @@ def generate_uploads():
     return [Upload(name="upload" + str(upload), user="user" + str(upload),
             timestamp=dt.datetime.now(),
             ip="156.34.56." + str(upload),
-            observations=generate_observations()[:2],
-            datasource=generate_datasources()[upload])
+            observations=generate_observations()[upload].observation_id,
+            datasource=generate_datasources()[upload].name)
             for upload in range(rand_num)]
 
 
@@ -110,5 +106,6 @@ def generate_licenses():
 
 def generate_users():
     return [User(user_login=str(usr),
-            organization=generate_organizations()[usr]) for usr in range(rand_num)]
+            organization=generate_organizations()[usr].name) for usr in range(rand_num)]
+
 

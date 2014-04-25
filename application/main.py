@@ -17,6 +17,7 @@ from application.generators import generate_measurements as measurements
 from application.generators import generate_slices as slices
 from application.generators import generate_uploads as uploads
 from application.loader import load_data_set
+import datetime as dt
 
 g = Graph()
 host1 = "http://localhost:1300/"
@@ -254,4 +255,7 @@ def main():
     load_data_set(host1, api1, graph_uri1)
 
 if __name__ == "__main__":
+    start = dt.datetime.now()
     main()
+    end = dt.datetime.now()
+    print end - start
