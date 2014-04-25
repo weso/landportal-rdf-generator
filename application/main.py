@@ -15,6 +15,7 @@ from application.generators import generate_licenses as licenses
 from application.generators import generate_users as users
 from application.generators import generate_measurements as measurements
 from application.generators import generate_slices as slices
+from application.generators import generate_uploads as uploads
 from application.loader import load_data_set
 
 g = Graph()
@@ -196,6 +197,27 @@ def add_slices_triples():
                prefix_.term(str(slc.dataset))))
 
 
+def add_uploads_triples():
+    for upload in uploads():
+        g.add((prefix_.term(upload.name), RDF.type,
+               lb.term("Upload")))
+
+        g.add((prefix_.term(upload.name), lb.term("user"),
+               prefix_.term(upload.user)))
+
+        g.add((prefix_.term(upload.name), lb.term("timestamp"),
+               Literal(upload.timestamp, datatype=XSD.dateTime)))
+
+        g.add((prefix_.term(upload.name), lb.term("ip"),
+               prefix_.term(upload.ip)))
+
+        g.add((prefix_.term(upload.name), lb.term("observation"),
+               prefix_.term(upload.observations)))
+
+        g.add((prefix_.term(upload.name), lb.term("dataSource"),
+               prefix_.term(str(upload.datasource))))
+
+
 def initialize_graph():
     add_regions_triples()
     add_observations_triples()
@@ -208,6 +230,7 @@ def initialize_graph():
     add_licenses_triples()
     add_users_triples()
     add_slices_triples()
+    add_uploads_triples()
     bind_namespaces(g)
     return g
 

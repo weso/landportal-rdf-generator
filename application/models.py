@@ -203,6 +203,9 @@ class DataSource(object):
         self.datasets.append(dataset)
         dataset.source = self
 
+    def __repr__(self):
+        return self.name
+
 
 class Organization(object):
     def __init__(self, chain_for_id, name=None, url=None, description=None, url_logo=None,
@@ -263,6 +266,7 @@ class User(object):
     def __repr__(self):
         return self.user_id
 
+
 class Upload(object):
     def __init__(self, name=None, user=None, timestamp=None, ip=None, observations=None,
                  datasource=None):
@@ -271,6 +275,7 @@ class Upload(object):
         self.timestamp = timestamp
         self.ip = ip
         self.observations = observations
+        self.datasource = datasource
 
     def __repr__(self):
         return self.name
