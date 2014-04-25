@@ -1,7 +1,7 @@
 __author__ = 'guillermo'
 
 from rdflib import Literal, Graph, XSD
-from rdflib.namespace import RDF, RDFS
+from rdflib.namespace import RDF, RDFS, FOAF
 
 from rdf_utils.namespaces_handler import *
 from application.generators import generate_observations as observations
@@ -9,6 +9,11 @@ from application.generators import generate_regions as regions
 from application.generators import generate_countries as countries
 from application.generators import generate_years as years
 from application.generators import generate_indicators as indicators
+from application.generators import generate_topics as topics
+from application.generators import generate_organizations as organizations
+from application.generators import generate_licenses as licenses
+from application.generators import generate_users as users
+from application.generators import generate_measurements as measurements
 from application.loader import load_data_set
 
 g = Graph()
@@ -126,12 +131,63 @@ def add_observations_triples():
                cex.term("Area")))
 
 
+def add_topics_triples():
+    for topic in topics():
+        g.add((prefix_.term(topic.topic), RDF.type,
+               lb.term("Topic")))
+        g.add((prefix_.term(topic.topic), RDFS.label,
+               Literal(topic.topic, lang='en')))
+
+
+def add_measurements_triples():
+    for measure in measurements():
+        g.add((prefix_.term(measure.name), RDF.type,
+               lb.term("Measurement")))
+        g.add((prefix_.term(measure.name), RDFS.label,
+               Literal(measure.name, lang='en')))
+
+
+def add_organizations_triples():
+    for organization in organizations():
+        g.add((prefix_.term(organization.name), RDF.type,
+               org.term("Organization")))
+        g.add((prefix_.term(organization.name), RDFS.label,
+               Literal(organization.name, lang='en')))
+        g.add((prefix_.term(organization.name), FOAF.homepage,
+               Literal(organization.url)))
+
+
+def add_licenses_triples():
+    for lic in licenses():
+        g.add((prefix_.term(lic.name), RDF.type,
+               lb.term("License")))
+
+
+def add_users_triples():
+    for usr in users():
+        g.add((prefix_.term(usr.user_id), RDF.type,
+               FOAF.Person))
+        g.add((prefix_.term(usr.user_id), RDFS.label,
+               Literal(usr.user_id, lang='en')))
+        g.add((prefix_.term(usr.user_id), FOAF.name,
+               Literal(usr.user_id)))
+        g.add((prefix_.term(usr.user_id), FOAF.account,
+               Literal(usr.user_id)))
+        g.add((prefix_.term(usr.user_id), org.term("memberOf"),
+               prefix_.term(str(usr.organization))))
+
+
 def initialize_graph():
     add_regions_triples()
     add_observations_triples()
     add_countries_triples()
     add_years_triples()
     add_indicators_triples()
+    add_topics_triples()
+    add_measurements_triples()
+    add_organizations_triples()
+    add_licenses_triples()
+    add_users_triples()
     bind_namespaces(g)
     return g
 
