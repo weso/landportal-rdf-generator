@@ -14,6 +14,7 @@ from application.generators import generate_organizations as organizations
 from application.generators import generate_licenses as licenses
 from application.generators import generate_users as users
 from application.generators import generate_measurements as measurements
+from application.generators import generate_slices as slices
 from application.loader import load_data_set
 
 g = Graph()
@@ -175,6 +176,11 @@ def add_users_triples():
                Literal(usr.user_id)))
         g.add((prefix_.term(usr.user_id), org.term("memberOf"),
                prefix_.term(str(usr.organization))))
+
+def add_slices_triples():
+    for slice in slices():
+        g.add((prefix_.term(slice.name), RDF.type,
+               lb.term("License")))
 
 
 def initialize_graph():
