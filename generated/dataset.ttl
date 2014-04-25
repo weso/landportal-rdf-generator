@@ -48,80 +48,190 @@
     lb:iso2 "CO" ;
     lb:iso3 "COU" .
 
+:Country5 a cex:Area ;
+    rdfs:label "Country5"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region5 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country6 a cex:Area ;
+    rdfs:label "Country6"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region6 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country7 a cex:Area ;
+    rdfs:label "Country7"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region7 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country8 a cex:Area ;
+    rdfs:label "Country8"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region8 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
+:Country9 a cex:Area ;
+    rdfs:label "Country9"@en ;
+    lb:FaoURI "<http://www.fao.org/countryprofiles/index/en/?iso3=cou>" ;
+    lb:is_part_of :Region9 ;
+    lb:iso2 "CO" ;
+    lb:iso3 "COU" .
+
 :OBS0 a qb:Observation ;
-    rdfs:label "Observation of Region0 in 2003 for Indicator0"@en ;
-    dcterms:issued "2014-04-25T16:29:41.587251"^^xsd:dateTime,
-        "2014-04-25T16:29:41.603964"^^xsd:dateTime,
-        "2014-04-25T16:29:41.633329"^^xsd:dateTime ;
+    rdfs:label "Observation of Region0 in 2004 for Indicator0"@en ;
+    dcterms:issued "2014-04-25T18:27:53.163922"^^xsd:dateTime,
+        "2014-04-25T18:27:53.496630"^^xsd:dateTime,
+        "2014-04-25T18:27:53.864301"^^xsd:dateTime ;
     qb:dataSet :DAT_0 ;
     qb:slice :SLI0 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
     cex:ref-area :Region0 ;
     cex:ref-indicator :Indicator0 ;
-    cex:ref-time <http://example.org/2003> ;
+    cex:ref-time <http://example.org/2004> ;
     cex:value 0e+00 ;
     lb:source :upload0 .
 
 :OBS1 a qb:Observation ;
-    rdfs:label "Observation of Region1 in 2003 for Indicator1"@en ;
-    dcterms:issued "2014-04-25T16:29:41.587987"^^xsd:dateTime,
-        "2014-04-25T16:29:41.604610"^^xsd:dateTime,
-        "2014-04-25T16:29:41.634055"^^xsd:dateTime ;
+    rdfs:label "Observation of Region1 in 2004 for Indicator1"@en ;
+    dcterms:issued "2014-04-25T18:27:53.166719"^^xsd:dateTime,
+        "2014-04-25T18:27:53.499538"^^xsd:dateTime,
+        "2014-04-25T18:27:53.867072"^^xsd:dateTime ;
     qb:dataSet :DAT_1 ;
     qb:slice :SLI1 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
     cex:ref-area :Region1 ;
     cex:ref-indicator :Indicator1 ;
-    cex:ref-time <http://example.org/2003> ;
+    cex:ref-time <http://example.org/2004> ;
     cex:value 1e+00 ;
     lb:source :upload1 .
 
 :OBS2 a qb:Observation ;
-    rdfs:label "Observation of Region2 in 2003 for Indicator2"@en ;
-    dcterms:issued "2014-04-25T16:29:41.588607"^^xsd:dateTime,
-        "2014-04-25T16:29:41.605229"^^xsd:dateTime,
-        "2014-04-25T16:29:41.634724"^^xsd:dateTime ;
+    rdfs:label "Observation of Region2 in 2004 for Indicator2"@en ;
+    dcterms:issued "2014-04-25T18:27:53.169668"^^xsd:dateTime,
+        "2014-04-25T18:27:53.502477"^^xsd:dateTime,
+        "2014-04-25T18:27:53.869932"^^xsd:dateTime ;
     qb:dataSet :DAT_2 ;
     qb:slice :SLI2 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
     cex:ref-area :Region2 ;
     cex:ref-indicator :Indicator2 ;
-    cex:ref-time <http://example.org/2003> ;
+    cex:ref-time <http://example.org/2004> ;
     cex:value 2e+00 ;
     lb:source :upload2 .
 
 :OBS3 a qb:Observation ;
-    rdfs:label "Observation of Region3 in 2003 for Indicator3"@en ;
-    dcterms:issued "2014-04-25T16:29:41.589221"^^xsd:dateTime,
-        "2014-04-25T16:29:41.605918"^^xsd:dateTime,
-        "2014-04-25T16:29:41.635343"^^xsd:dateTime ;
+    rdfs:label "Observation of Region3 in 2004 for Indicator3"@en ;
+    dcterms:issued "2014-04-25T18:27:53.172416"^^xsd:dateTime,
+        "2014-04-25T18:27:53.505308"^^xsd:dateTime,
+        "2014-04-25T18:27:53.872740"^^xsd:dateTime ;
     qb:dataSet :DAT_3 ;
     qb:slice :SLI3 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
     cex:ref-area :Region3 ;
     cex:ref-indicator :Indicator3 ;
-    cex:ref-time <http://example.org/2003> ;
+    cex:ref-time <http://example.org/2004> ;
     cex:value 3e+00 ;
     lb:source :upload3 .
 
 :OBS4 a qb:Observation ;
-    rdfs:label "Observation of Region4 in 2003 for Indicator4"@en ;
-    dcterms:issued "2014-04-25T16:29:41.589835"^^xsd:dateTime,
-        "2014-04-25T16:29:41.606527"^^xsd:dateTime,
-        "2014-04-25T16:29:41.636025"^^xsd:dateTime ;
+    rdfs:label "Observation of Region4 in 2004 for Indicator4"@en ;
+    dcterms:issued "2014-04-25T18:27:53.175129"^^xsd:dateTime,
+        "2014-04-25T18:27:53.508023"^^xsd:dateTime,
+        "2014-04-25T18:27:53.875490"^^xsd:dateTime ;
     qb:dataSet :DAT_4 ;
     qb:slice :SLI4 ;
     sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
     cex:computation cex:RAW ;
     cex:ref-area :Region4 ;
     cex:ref-indicator :Indicator4 ;
-    cex:ref-time <http://example.org/2003> ;
+    cex:ref-time <http://example.org/2004> ;
     cex:value 4e+00 ;
     lb:source :upload4 .
+
+:OBS5 a qb:Observation ;
+    rdfs:label "Observation of Region5 in 2004 for Indicator5"@en ;
+    dcterms:issued "2014-04-25T18:27:53.177861"^^xsd:dateTime,
+        "2014-04-25T18:27:53.511415"^^xsd:dateTime,
+        "2014-04-25T18:27:53.878309"^^xsd:dateTime ;
+    qb:dataSet :DAT_5 ;
+    qb:slice :SLI5 ;
+    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
+    cex:computation cex:RAW ;
+    cex:ref-area :Region5 ;
+    cex:ref-indicator :Indicator5 ;
+    cex:ref-time <http://example.org/2004> ;
+    cex:value 5e+00 ;
+    lb:source :upload5 .
+
+:OBS6 a qb:Observation ;
+    rdfs:label "Observation of Region6 in 2004 for Indicator6"@en ;
+    dcterms:issued "2014-04-25T18:27:53.180706"^^xsd:dateTime,
+        "2014-04-25T18:27:53.514348"^^xsd:dateTime,
+        "2014-04-25T18:27:53.881071"^^xsd:dateTime ;
+    qb:dataSet :DAT_6 ;
+    qb:slice :SLI6 ;
+    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
+    cex:computation cex:RAW ;
+    cex:ref-area :Region6 ;
+    cex:ref-indicator :Indicator6 ;
+    cex:ref-time <http://example.org/2004> ;
+    cex:value 6e+00 ;
+    lb:source :upload6 .
+
+:OBS7 a qb:Observation ;
+    rdfs:label "Observation of Region7 in 2004 for Indicator7"@en ;
+    dcterms:issued "2014-04-25T18:27:53.183397"^^xsd:dateTime,
+        "2014-04-25T18:27:53.517203"^^xsd:dateTime,
+        "2014-04-25T18:27:53.883852"^^xsd:dateTime ;
+    qb:dataSet :DAT_7 ;
+    qb:slice :SLI7 ;
+    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
+    cex:computation cex:RAW ;
+    cex:ref-area :Region7 ;
+    cex:ref-indicator :Indicator7 ;
+    cex:ref-time <http://example.org/2004> ;
+    cex:value 7e+00 ;
+    lb:source :upload7 .
+
+:OBS8 a qb:Observation ;
+    rdfs:label "Observation of Region8 in 2004 for Indicator8"@en ;
+    dcterms:issued "2014-04-25T18:27:53.186263"^^xsd:dateTime,
+        "2014-04-25T18:27:53.520134"^^xsd:dateTime,
+        "2014-04-25T18:27:53.886667"^^xsd:dateTime ;
+    qb:dataSet :DAT_8 ;
+    qb:slice :SLI8 ;
+    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
+    cex:computation cex:RAW ;
+    cex:ref-area :Region8 ;
+    cex:ref-indicator :Indicator8 ;
+    cex:ref-time <http://example.org/2004> ;
+    cex:value 8e+00 ;
+    lb:source :upload8 .
+
+:OBS9 a qb:Observation ;
+    rdfs:label "Observation of Region9 in 2004 for Indicator9"@en ;
+    dcterms:issued "2014-04-25T18:27:53.189191"^^xsd:dateTime,
+        "2014-04-25T18:27:53.522838"^^xsd:dateTime,
+        "2014-04-25T18:27:53.889473"^^xsd:dateTime ;
+    qb:dataSet :DAT_9 ;
+    qb:slice :SLI9 ;
+    sdmx-concept:obsStatus sdmx-code:obsStatus-A ;
+    cex:computation cex:RAW ;
+    cex:ref-area :Region9 ;
+    cex:ref-indicator :Indicator9 ;
+    cex:ref-time <http://example.org/2004> ;
+    cex:value 9e+00 ;
+    lb:source :upload9 .
 
 :Topic0 a lb:Topic ;
     rdfs:label "Topic0"@en .
@@ -137,6 +247,21 @@
 
 :Topic4 a lb:Topic ;
     rdfs:label "Topic4"@en .
+
+:Topic5 a lb:Topic ;
+    rdfs:label "Topic5"@en .
+
+:Topic6 a lb:Topic ;
+    rdfs:label "Topic6"@en .
+
+:Topic7 a lb:Topic ;
+    rdfs:label "Topic7"@en .
+
+:Topic8 a lb:Topic ;
+    rdfs:label "Topic8"@en .
+
+:Topic9 a lb:Topic ;
+    rdfs:label "Topic9"@en .
 
 :USR0 a foaf:Person ;
     rdfs:label "USR0"@en ;
@@ -168,6 +293,36 @@
     foaf:account "USR4" ;
     foaf:name "USR4" .
 
+:USR5 a foaf:Person ;
+    rdfs:label "USR5"@en ;
+    org:memberOf :organization5 ;
+    foaf:account "USR5" ;
+    foaf:name "USR5" .
+
+:USR6 a foaf:Person ;
+    rdfs:label "USR6"@en ;
+    org:memberOf :organization6 ;
+    foaf:account "USR6" ;
+    foaf:name "USR6" .
+
+:USR7 a foaf:Person ;
+    rdfs:label "USR7"@en ;
+    org:memberOf :organization7 ;
+    foaf:account "USR7" ;
+    foaf:name "USR7" .
+
+:USR8 a foaf:Person ;
+    rdfs:label "USR8"@en ;
+    org:memberOf :organization8 ;
+    foaf:account "USR8" ;
+    foaf:name "USR8" .
+
+:USR9 a foaf:Person ;
+    rdfs:label "USR9"@en ;
+    org:memberOf :organization9 ;
+    foaf:account "USR9" ;
+    foaf:name "USR9" .
+
 :license0 a lb:License .
 
 :license1 a lb:License .
@@ -177,6 +332,16 @@
 :license3 a lb:License .
 
 :license4 a lb:License .
+
+:license5 a lb:License .
+
+:license6 a lb:License .
+
+:license7 a lb:License .
+
+:license8 a lb:License .
+
+:license9 a lb:License .
 
 :measurement0 a lb:Measurement ;
     rdfs:label "measurement0"@en .
@@ -193,8 +358,23 @@
 :measurement4 a lb:Measurement ;
     rdfs:label "measurement4"@en .
 
-:year2003 a cex:Time ;
-    time:year "2003"^^xsd:gYear .
+:measurement5 a lb:Measurement ;
+    rdfs:label "measurement5"@en .
+
+:measurement6 a lb:Measurement ;
+    rdfs:label "measurement6"@en .
+
+:measurement7 a lb:Measurement ;
+    rdfs:label "measurement7"@en .
+
+:measurement8 a lb:Measurement ;
+    rdfs:label "measurement8"@en .
+
+:measurement9 a lb:Measurement ;
+    rdfs:label "measurement9"@en .
+
+:year2004 a cex:Time ;
+    time:year "2004"^^xsd:gYear .
 
 :SLI0 a qb:Slice ;
     qb:dataSet :DAT_0 ;
@@ -226,6 +406,36 @@
     cex:indicator :Indicator4 ;
     lb:dimension :Area .
 
+:SLI5 a qb:Slice ;
+    qb:dataSet :DAT_5 ;
+    qb:observation :Obs ;
+    cex:indicator :Indicator5 ;
+    lb:dimension :Area .
+
+:SLI6 a qb:Slice ;
+    qb:dataSet :DAT_6 ;
+    qb:observation :Obs ;
+    cex:indicator :Indicator6 ;
+    lb:dimension :Area .
+
+:SLI7 a qb:Slice ;
+    qb:dataSet :DAT_7 ;
+    qb:observation :Obs ;
+    cex:indicator :Indicator7 ;
+    lb:dimension :Area .
+
+:SLI8 a qb:Slice ;
+    qb:dataSet :DAT_8 ;
+    qb:observation :Obs ;
+    cex:indicator :Indicator8 ;
+    lb:dimension :Area .
+
+:SLI9 a qb:Slice ;
+    qb:dataSet :DAT_9 ;
+    qb:observation :Obs ;
+    cex:indicator :Indicator9 ;
+    lb:dimension :Area .
+
 :organization0 a org:Organization ;
     rdfs:label "organization0"@en ;
     foaf:homepage "<http://www.organization0.org/>" .
@@ -246,12 +456,122 @@
     rdfs:label "organization4"@en ;
     foaf:homepage "<http://www.organization4.org/>" .
 
+:organization5 a org:Organization ;
+    rdfs:label "organization5"@en ;
+    foaf:homepage "<http://www.organization5.org/>" .
+
+:organization6 a org:Organization ;
+    rdfs:label "organization6"@en ;
+    foaf:homepage "<http://www.organization6.org/>" .
+
+:organization7 a org:Organization ;
+    rdfs:label "organization7"@en ;
+    foaf:homepage "<http://www.organization7.org/>" .
+
+:organization8 a org:Organization ;
+    rdfs:label "organization8"@en ;
+    foaf:homepage "<http://www.organization8.org/>" .
+
+:organization9 a org:Organization ;
+    rdfs:label "organization9"@en ;
+    foaf:homepage "<http://www.organization9.org/>" .
+
+:upload0 a lb:Upload ;
+    lb:dataSource :dataSource0 ;
+    lb:ip <http://example.org/156.34.56.0> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.216655"^^xsd:dateTime,
+        "2014-04-25T18:27:53.552597"^^xsd:dateTime,
+        "2014-04-25T18:27:53.916236"^^xsd:dateTime ;
+    lb:user :user0 .
+
+:upload1 a lb:Upload ;
+    lb:dataSource :dataSource1 ;
+    lb:ip <http://example.org/156.34.56.1> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.244875"^^xsd:dateTime,
+        "2014-04-25T18:27:53.581450"^^xsd:dateTime,
+        "2014-04-25T18:27:53.943723"^^xsd:dateTime ;
+    lb:user :user1 .
+
+:upload2 a lb:Upload ;
+    lb:dataSource :dataSource2 ;
+    lb:ip <http://example.org/156.34.56.2> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.272294"^^xsd:dateTime,
+        "2014-04-25T18:27:53.609542"^^xsd:dateTime,
+        "2014-04-25T18:27:53.971070"^^xsd:dateTime ;
+    lb:user :user2 .
+
+:upload3 a lb:Upload ;
+    lb:dataSource :dataSource3 ;
+    lb:ip <http://example.org/156.34.56.3> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.299804"^^xsd:dateTime,
+        "2014-04-25T18:27:53.637541"^^xsd:dateTime,
+        "2014-04-25T18:27:53.998144"^^xsd:dateTime ;
+    lb:user :user3 .
+
+:upload4 a lb:Upload ;
+    lb:dataSource :dataSource4 ;
+    lb:ip <http://example.org/156.34.56.4> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.327290"^^xsd:dateTime,
+        "2014-04-25T18:27:53.665955"^^xsd:dateTime,
+        "2014-04-25T18:27:54.025730"^^xsd:dateTime ;
+    lb:user :user4 .
+
+:upload5 a lb:Upload ;
+    lb:dataSource :dataSource5 ;
+    lb:ip <http://example.org/156.34.56.5> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.354722"^^xsd:dateTime,
+        "2014-04-25T18:27:53.694233"^^xsd:dateTime,
+        "2014-04-25T18:27:54.053221"^^xsd:dateTime ;
+    lb:user :user5 .
+
+:upload6 a lb:Upload ;
+    lb:dataSource :dataSource6 ;
+    lb:ip <http://example.org/156.34.56.6> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.382069"^^xsd:dateTime,
+        "2014-04-25T18:27:53.722017"^^xsd:dateTime,
+        "2014-04-25T18:27:54.081093"^^xsd:dateTime ;
+    lb:user :user6 .
+
+:upload7 a lb:Upload ;
+    lb:dataSource :dataSource7 ;
+    lb:ip <http://example.org/156.34.56.7> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.409442"^^xsd:dateTime,
+        "2014-04-25T18:27:53.749735"^^xsd:dateTime,
+        "2014-04-25T18:27:54.109378"^^xsd:dateTime ;
+    lb:user :user7 .
+
+:upload8 a lb:Upload ;
+    lb:dataSource :dataSource8 ;
+    lb:ip <http://example.org/156.34.56.8> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.436695"^^xsd:dateTime,
+        "2014-04-25T18:27:53.776960"^^xsd:dateTime,
+        "2014-04-25T18:27:54.138021"^^xsd:dateTime ;
+    lb:user :user8 .
+
+:upload9 a lb:Upload ;
+    lb:dataSource :dataSource9 ;
+    lb:ip <http://example.org/156.34.56.9> ;
+    lb:observation : ;
+    lb:timestamp "2014-04-25T18:27:53.463940"^^xsd:dateTime,
+        "2014-04-25T18:27:53.804670"^^xsd:dateTime,
+        "2014-04-25T18:27:54.168011"^^xsd:dateTime ;
+    lb:user :user9 .
+
 :Indicator0 a cex:Indicator ;
     rdfs:label "Indicator0 description"@en ;
     lb:indicatorType cex:Simple ;
-    lb:last_update "2014-04-25T16:29:41.595932"^^xsd:dateTime,
-        "2014-04-25T16:29:41.611964"^^xsd:dateTime,
-        "2014-04-25T16:29:41.641246"^^xsd:dateTime ;
+    lb:last_update "2014-04-25T18:27:53.201553"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537237"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901659"^^xsd:dateTime ;
     lb:measurement cex:measurement0 ;
     lb:preferable_tendency cex:decrease ;
     lb:starred "true"^^xsd:Boolean ;
@@ -261,9 +581,9 @@
 :Indicator1 a cex:Indicator ;
     rdfs:label "Indicator1 description"@en ;
     lb:indicatorType cex:Simple ;
-    lb:last_update "2014-04-25T16:29:41.595963"^^xsd:dateTime,
-        "2014-04-25T16:29:41.611980"^^xsd:dateTime,
-        "2014-04-25T16:29:41.641261"^^xsd:dateTime ;
+    lb:last_update "2014-04-25T18:27:53.201572"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537267"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901676"^^xsd:dateTime ;
     lb:measurement cex:measurement1 ;
     lb:preferable_tendency cex:decrease ;
     lb:starred "true"^^xsd:Boolean ;
@@ -273,9 +593,9 @@
 :Indicator2 a cex:Indicator ;
     rdfs:label "Indicator2 description"@en ;
     lb:indicatorType cex:Simple ;
-    lb:last_update "2014-04-25T16:29:41.595972"^^xsd:dateTime,
-        "2014-04-25T16:29:41.611989"^^xsd:dateTime,
-        "2014-04-25T16:29:41.641270"^^xsd:dateTime ;
+    lb:last_update "2014-04-25T18:27:53.201580"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537277"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901684"^^xsd:dateTime ;
     lb:measurement cex:measurement2 ;
     lb:preferable_tendency cex:decrease ;
     lb:starred "true"^^xsd:Boolean ;
@@ -285,9 +605,9 @@
 :Indicator3 a cex:Indicator ;
     rdfs:label "Indicator3 description"@en ;
     lb:indicatorType cex:Simple ;
-    lb:last_update "2014-04-25T16:29:41.595980"^^xsd:dateTime,
-        "2014-04-25T16:29:41.611997"^^xsd:dateTime,
-        "2014-04-25T16:29:41.641277"^^xsd:dateTime ;
+    lb:last_update "2014-04-25T18:27:53.201587"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537286"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901690"^^xsd:dateTime ;
     lb:measurement cex:measurement3 ;
     lb:preferable_tendency cex:decrease ;
     lb:starred "true"^^xsd:Boolean ;
@@ -297,14 +617,74 @@
 :Indicator4 a cex:Indicator ;
     rdfs:label "Indicator4 description"@en ;
     lb:indicatorType cex:Simple ;
-    lb:last_update "2014-04-25T16:29:41.595987"^^xsd:dateTime,
-        "2014-04-25T16:29:41.612003"^^xsd:dateTime,
-        "2014-04-25T16:29:41.641283"^^xsd:dateTime ;
+    lb:last_update "2014-04-25T18:27:53.201593"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537294"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901697"^^xsd:dateTime ;
     lb:measurement cex:measurement4 ;
     lb:preferable_tendency cex:decrease ;
     lb:starred "true"^^xsd:Boolean ;
     lb:topic cex:topic4 ;
     rdfs:comment "Longer description of Indicator4"@en .
+
+:Indicator5 a cex:Indicator ;
+    rdfs:label "Indicator5 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-25T18:27:53.201599"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537302"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901703"^^xsd:dateTime ;
+    lb:measurement cex:measurement5 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic5 ;
+    rdfs:comment "Longer description of Indicator5"@en .
+
+:Indicator6 a cex:Indicator ;
+    rdfs:label "Indicator6 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-25T18:27:53.201606"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537309"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901709"^^xsd:dateTime ;
+    lb:measurement cex:measurement6 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic6 ;
+    rdfs:comment "Longer description of Indicator6"@en .
+
+:Indicator7 a cex:Indicator ;
+    rdfs:label "Indicator7 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-25T18:27:53.201612"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537317"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901715"^^xsd:dateTime ;
+    lb:measurement cex:measurement7 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic7 ;
+    rdfs:comment "Longer description of Indicator7"@en .
+
+:Indicator8 a cex:Indicator ;
+    rdfs:label "Indicator8 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-25T18:27:53.201618"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537324"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901721"^^xsd:dateTime ;
+    lb:measurement cex:measurement8 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic8 ;
+    rdfs:comment "Longer description of Indicator8"@en .
+
+:Indicator9 a cex:Indicator ;
+    rdfs:label "Indicator9 description"@en ;
+    lb:indicatorType cex:Simple ;
+    lb:last_update "2014-04-25T18:27:53.201625"^^xsd:dateTime,
+        "2014-04-25T18:27:53.537333"^^xsd:dateTime,
+        "2014-04-25T18:27:53.901727"^^xsd:dateTime ;
+    lb:measurement cex:measurement9 ;
+    lb:preferable_tendency cex:decrease ;
+    lb:starred "true"^^xsd:Boolean ;
+    lb:topic cex:topic9 ;
+    rdfs:comment "Longer description of Indicator9"@en .
 
 :Region0 a cex:Area ;
     rdfs:label "Region0"@en ;
@@ -324,5 +704,25 @@
 
 :Region4 a cex:Area ;
     rdfs:label "Region4"@en ;
+    lb:UNCode "EU" .
+
+:Region5 a cex:Area ;
+    rdfs:label "Region5"@en ;
+    lb:UNCode "EU" .
+
+:Region6 a cex:Area ;
+    rdfs:label "Region6"@en ;
+    lb:UNCode "EU" .
+
+:Region7 a cex:Area ;
+    rdfs:label "Region7"@en ;
+    lb:UNCode "EU" .
+
+:Region8 a cex:Area ;
+    rdfs:label "Region8"@en ;
+    lb:UNCode "EU" .
+
+:Region9 a cex:Area ;
+    rdfs:label "Region9"@en ;
     lb:UNCode "EU" .
 
