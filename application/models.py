@@ -125,10 +125,16 @@ class Topic(object):
     def __init__(self, topic=None):
         self.topic = topic
 
+    def __repr__(self):
+        return self.topic
+
 
 class MeasurementUnit(object):
     def __init__(self, name=None):
         self.name = name
+
+    def __repr__(self):
+        return self.name
 
 
 class Slice(object):
@@ -199,7 +205,8 @@ class DataSource(object):
 
 
 class Organization(object):
-    def __init__(self, chain_for_id, name=None, url=None, description=None, url_logo=None, is_part_of=None):
+    def __init__(self, chain_for_id, name=None, url=None, description=None, url_logo=None,
+                 is_part_of=None):
         self.name = name
         self.url = url
         self.is_part_of = is_part_of
@@ -221,6 +228,9 @@ class Organization(object):
         self.data_sources.append(data_source)
         data_source.organization = self
 
+    def __repr__(self):
+        return self.name
+
 
 class License(object):
     def __init__(self, name=None, description=None, republish=None, url=None):
@@ -228,6 +238,9 @@ class License(object):
         self.description = description
         self.republish = republish
         self.url = url
+
+    def __repr__(self):
+        return self.name
 
 
 class Computation(object):
@@ -247,4 +260,18 @@ class User(object):
     def _generate_id(user_login):
         return "USR" + user_login.upper()
 
+    def __repr__(self):
+        return self.user_id
+
+class Upload(object):
+    def __init__(self, name=None, user=None, timestamp=None, ip=None, observations=None,
+                 datasource=None):
+        self.name = name
+        self.user = user
+        self.timestamp = timestamp
+        self.ip = ip
+        self.observations = observations
+
+    def __repr__(self):
+        return self.name
 

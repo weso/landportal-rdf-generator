@@ -98,3 +98,53 @@ def generate_observations():
                                                 generate_slices()[obs]))
     return observations
 
+
+def generate_topics():
+    topics = []
+    for topic in range(rand_num):
+        topics.append(Topic(topic="Topic" + str(topic)))
+    return topics
+
+
+def generate_measurements():
+    measurements = []
+    for measure in range(rand_num):
+        measurements.append(MeasurementUnit(name="measurement" + str(measure)))
+    return measurements
+
+
+def generate_uploads():
+    uploads = []
+    for upload in range(rand_num):
+        uploads.append(Upload("upload" + str(upload), user="user" + str(upload),
+                              timestamp=dt.datetime.now(),
+                              ip="156.34.56." + str(randint(20, 100)),
+                              observations=generate_observations()[:2],
+                              datasource=generate_datasources()[upload]))
+    return uploads
+
+
+def generate_organizations():
+    organizations = []
+    for org in range(rand_num):
+        organizations.append(Organization(str(org), name="organization" + str(org),
+                                          url="<http://www." + "organization" + str(org)
+                                          + ".org/>", description="Description of " +
+                                          "organization" + str(org)))
+    return organizations
+
+
+def generate_licenses():
+    licenses = []
+    for lic in range(rand_num):
+        licenses.append(License(name="license" + str(lic)))
+    return licenses
+
+
+def generate_users():
+    users = []
+    for usr in range(rand_num):
+        users.append(User(user_login=str(usr),
+                          organization=generate_organizations()[usr]))
+    return users
+
