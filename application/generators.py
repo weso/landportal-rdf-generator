@@ -6,7 +6,7 @@ import datetime as dt
 from application.models import *
 
 
-rand_num = 50
+rand_num = 5
 rand_year = randint(1999, 2014)
 
 
@@ -38,7 +38,8 @@ def generate_countries():
 
 
 def generate_years():
-    return [Year("year" + str(rand_year), rand_year) for year in range(rand_num)]
+    return [Year(name="year" + str(rand_year), value=rand_year)
+            for year in range(rand_num)]
 
 
 computation = Computation("RAW")
@@ -59,18 +60,20 @@ def generate_observations():
     Generates a random number of observations based on fake data
     for testing purposes
     """
-    return [Observation("", obs, generate_years()[obs],
-                        dt.datetime.now(), computation.uri,
-                        float(obs),
-                        generate_indicators()[obs].name_en,
-                        generate_datasets()[obs].dataset_id,
-                        generate_regions()[obs].name,
-                        "Observation of "
+    return [Observation(chain_for_id="", int_for_id=obs,
+                        ref_time=generate_years()[obs].name,
+                        issued=dt.datetime.now(),
+                        computation=computation.uri,
+                        value=float(obs),
+                        indicator=generate_indicators()[obs].name_en,
+                        dataset=generate_datasets()[obs].dataset_id,
+                        ref_area=generate_regions()[obs].name,
+                        description="Observation of "
                         + generate_regions()[obs].name + " in " +
                         generate_years()[obs].name + " for " +
-                        generate_indicators()[obs].name_en, "upload"
-                        + str(obs), "obsStatus-A",
-                        generate_slices()[obs])
+                        generate_indicators()[obs].name_en, source="upload"
+                        + str(obs), status="obsStatus-A",
+                        slice=generate_slices()[obs])
             for obs in range(rand_num)]
 
 
@@ -107,5 +110,4 @@ def generate_licenses():
 def generate_users():
     return [User(user_login=str(usr),
             organization=generate_organizations()[usr].name) for usr in range(rand_num)]
-
 

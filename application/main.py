@@ -99,7 +99,7 @@ def add_observations_triples():
                qb.term("Observation")))
 
         g.add((prefix_.term(obs.observation_id), cex.term("ref-time"),
-               prefix_.term(str(obs.ref_time))))
+               prefix_.term(obs.ref_time)))
 
         g.add((prefix_.term(obs.observation_id), cex.term("ref-area"),
               prefix_.term(obs.ref_area)))
@@ -211,7 +211,7 @@ def add_uploads_triples():
                Literal(upload.timestamp, datatype=XSD.dateTime)))
 
         g.add((prefix_.term(upload.name), lb.term("ip"),
-               prefix_.term(upload.ip)))
+               Literal(upload.ip)))
 
         g.add((prefix_.term(upload.name), lb.term("observation"),
                prefix_.term(upload.observations)))
