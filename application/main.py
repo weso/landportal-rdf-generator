@@ -18,6 +18,7 @@ from application.generators import generate_slices as slices
 from application.generators import generate_uploads as uploads
 from application.loader import load_data_set
 import datetime as dt
+from memory_profiler import profile
 
 g = Graph()
 host1 = "http://localhost:1300/"
@@ -248,6 +249,7 @@ def serialize_turtle():
         sample.write(serialized)
 
 
+@profile
 def main():
     initialize_graph()
     serialize_rdf_xml()

@@ -6,7 +6,7 @@ import datetime as dt
 from application.models import *
 
 
-rand_num = 10
+rand_num = 50
 rand_year = randint(1999, 2014)
 
 
