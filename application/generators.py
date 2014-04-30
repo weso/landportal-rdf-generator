@@ -6,7 +6,7 @@ import datetime as dt
 from application.models import *
 
 
-rand_num = 5
+rand_num = 10
 rand_year = randint(1999, 2014)
 
 
@@ -18,28 +18,31 @@ def generate_indicators():
                       measurement_unit="measurement" + str(ind),
                       last_update=dt.datetime.now(), starred=True,
                       topic="topic" + str(ind), indicator_type="Simple")
-            for ind in range(rand_num)]
+            for ind in xrange(rand_num)]
 
 
 def generate_slices():
+    datasets = generate_datasets()
+    indicators = generate_indicators()
     return [Slice(chain_for_id="", int_for_id=slc, dimension="Area",
-                  dataset=generate_datasets()[slc].dataset_id,
-                  indicator=generate_indicators()[slc].name_en)
-            for slc in range(rand_num)]
+                  dataset=datasets[slc].dataset_id,
+                  indicator=indicators[slc].name_en)
+            for slc in xrange(rand_num)]
 
 
 def generate_regions():
-    return [Region("Region" + str(region)) for region in range(rand_num)]
+    return [Region("Region" + str(region)) for region in xrange(rand_num)]
 
 
 def generate_countries():
-    return [Country("Country" + str(country), generate_regions()[country].name,
-                    "co", "cou") for country in range(rand_num)]
+    regions = generate_regions()
+    return [Country("Country" + str(country), regions[country].name,
+                    "co", "cou") for country in xrange(rand_num)]
 
 
 def generate_years():
     return [Year(name="year" + str(rand_year), value=rand_year)
-            for year in range(rand_num)]
+            for year in xrange(rand_num)]
 
 
 computation = Computation("RAW")
@@ -47,12 +50,13 @@ computation = Computation("RAW")
 
 def generate_datasources():
     return [DataSource("dataSource", src, "dataSource"
-                       + str(src)) for src in range(rand_num)]
+                       + str(src)) for src in xrange(rand_num)]
 
 
 def generate_datasets():
+    datasources = generate_datasources()
     return [Dataset("", dat, "freq-A", "license" + str(dat),
-                    generate_datasources()[dat].name) for dat in range(rand_num)]
+                    datasources[dat].name) for dat in xrange(rand_num)]
 
 
 def generate_observations():
@@ -60,39 +64,48 @@ def generate_observations():
     Generates a random number of observations based on fake data
     for testing purposes
     """
+    years = generate_years()
+    indicators = generate_indicators()
+    datasets = generate_datasets()
+    regions = generate_regions()
+    slices = generate_slices()
+
     return [Observation(chain_for_id="", int_for_id=obs,
-                        ref_time=generate_years()[obs].name,
+                        ref_time=years[obs].name,
                         issued=dt.datetime.now(),
                         computation=computation.uri,
                         value=float(obs),
-                        indicator=generate_indicators()[obs].name_en,
-                        dataset=generate_datasets()[obs].dataset_id,
-                        ref_area=generate_regions()[obs].name,
+                        indicator=indicators[obs].name_en,
+                        dataset=datasets[obs].dataset_id,
+                        ref_area=regions[obs].name,
                         description="Observation of "
-                        + generate_regions()[obs].name + " in " +
-                        generate_years()[obs].name + " for " +
-                        generate_indicators()[obs].name_en, source="upload"
+                        + regions[obs].name + " in " +
+                        years[obs].name + " for " +
+                        indicators[obs].name_en, source="upload"
                         + str(obs), status="obsStatus-A",
-                        slice=generate_slices()[obs])
-            for obs in range(rand_num)]
+                        slice=slices[obs])
+            for obs in xrange(rand_num)]
 
 
 def generate_topics():
-    return [Topic(topic="Topic" + str(topic)) for topic in range(rand_num)]
+    return [Topic(topic="Topic" + str(topic)) for topic in xrange(rand_num)]
 
 
 def generate_measurements():
     return [MeasurementUnit(name="measurement" + str(measure))
-            for measure in range(rand_num)]
+            for measure in xrange(rand_num)]
 
 
 def generate_uploads():
+    observations = generate_observations()
+    datasources = generate_datasources()
+
     return [Upload(name="upload" + str(upload), user="user" + str(upload),
             timestamp=dt.datetime.now(),
             ip="156.34.56." + str(upload),
-            observations=generate_observations()[upload].observation_id,
-            datasource=generate_datasources()[upload].name)
-            for upload in range(rand_num)]
+            observations=observations[upload].observation_id,
+            datasource=datasources[upload].name)
+            for upload in xrange(rand_num)]
 
 
 def generate_organizations():
@@ -100,14 +113,15 @@ def generate_organizations():
                          url="<http://www." + "organization" + str(org)
                          + ".org/>", description="Description of " +
                          "organization" + str(org))
-            for org in range(rand_num)]
+            for org in xrange(rand_num)]
 
 
 def generate_licenses():
-    return [License(name="license" + str(lic)) for lic in range(rand_num)]
+    return [License(name="license" + str(lic)) for lic in xrange(rand_num)]
 
 
 def generate_users():
+    organizations = generate_organizations()
     return [User(user_login=str(usr),
-            organization=generate_organizations()[usr].name) for usr in range(rand_num)]
+            organization=organizations[usr].name) for usr in xrange(rand_num)]
 
